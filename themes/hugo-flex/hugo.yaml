@@ -1,0 +1,174 @@
+baseURL: https://example.org/
+title: Núcleo Integrado de Pesquisa Econômica
+languageCode: pt-BR
+theme: hugo-flex
+
+params:
+  logo: logo.png
+  color: teal           # Any color in CSS syntax
+  width: 42rem          # Any length in CSS syntax / leave empty to span page
+  divider: \2500\2500   # Any string in CSS syntax / leave empty for no divider
+  footer: >-            # HTML spaces (&#32;) are needed before HTML elements
+    <style>
+      .footer {
+        background-color: #333;
+          color: white;
+        padding: 20px;
+        border-top: 1px solid #ccc;
+      }
+    
+    .footer-top {
+      text-align: left;
+      margin-bottom: 20px;
+      line-height: 0.6;
+    }
+    
+    .footer-columns {
+      display: flex;
+      justify-content: space-between;
+      width: 110%;
+    }
+    
+    .footer-column {
+      flex: 1;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    .footer-column h3 {
+      margin-top: 0;
+    }
+    
+    .footer-column p,
+    .footer-column ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    
+    .footer-column a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .footer-column a:hover {
+      text-decoration: underline;
+    }
+    </style>
+      </head>
+      <body>
+      <footer class="footer">
+      <img src = "/images/logo.png",width = 90, height = 90>
+      <hr>
+      <div class="footer-top">
+      <p>Universidade Regional do Cariri (URCA)</p>
+      <p>Centro de Ciências Sociais Aplicadas</p>
+      <p>Departamento de Economia</p>
+      <p class="mb10">Rua Coronel Antônio Luiz, 1161, Bairro Pimenta, Crato-Ce</p>
+      </div>
+      <hr>
+      <div class="footer-columns">
+      <div class="footer-column">
+      <h3>
+      <a href="https://maps.app.goo.gl/XKKDVxHB6SAYKSBU7">
+      <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/place.png?raw=true" width="30" height="30">
+      </a> 
+      Localização
+    </h3>
+      </div>
+      <div class="footer-column">
+      <h3>
+      <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/img_icon.png?raw=true" width="30" height="30">
+      Contatos
+    </h3>
+      <p class="mb10">
+      <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/phone_icon1.png?raw=true" width="30" height="30">
+      (88) 3102-1204
+    </p>
+      <p class="mb10">
+      <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/mail_icon.png?raw=true" width="30" height="30">
+      nipe.urca@gmail.com
+    </p>
+      </div>
+      <div class="footer-column">
+      <h3>Mídias sociais</h3>
+      <p class="mb10">
+      <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/instagram_icon.png?raw=true" width="30" height="30">
+      <a href="https://www.instagram.com/nipe_urca/?igsh=MWFmaGticnJ3ejVnZg%3D%3D">Instagram</a>
+      </p>
+      </div>
+      </div>
+      </footer>
+  rss: To subscribe to this RSS feed, copy its address and paste it into your
+    favorite feed reader.
+  favicon: false        # Set to true to add a link to the favicon.ico
+  noClasses: &nc false  # Set to true to use inline CSS for syntax highlighting
+  katex: 0.16.11        # KaTeX version / leave empty to use the latest version
+  headingoffset: 0      # Change heading levels when rendering markdown
+  linkicons: false      # Set to hover or true to add a link icon to headings
+  summaries: false      # Set to true to show summaries of posts on homepage
+  schema: false         # Set to true to add Schema.org metadata
+  opengraph: false      # Set to true to add Open Graph metadata
+  twittercards: false   # Set to true to add Twitter Cards metadata
+  utterances:
+    repo:               # Set to Utterances repo URL to add Utterances comments
+    issueterm:          # Leave empty for the default blog post to issue mapping
+    theme:              # Leave empty to use the adaptive Utterances dark theme
+  netlify:
+    honeypot: false     # Set to true to add honeypot field in contact form
+    recaptcha: false    # Set to true to add recaptcha challenge in contact form
+  # css:                # Uncomment to add custom CSS from the assets directory
+  #   - css/foo.css
+  #   - bar.css
+  # js:                 # Uncomment to add custom JS from the assets directory
+  #   - js/foo.js
+  #   - bar.js
+
+markup:
+  highlight:
+    noClasses: *nc      # Set to same value as params.noClasses
+  goldmark:
+    extensions:
+      passthrough:
+        enable: false   # Set to true to render math in LaTeX notation globally
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+
+menu:
+  main:
+    - name: About
+      pageRef: /about
+      weight: 1
+    - name: Posts
+      pageRef: /post
+      weight: 2
+    - name: Tags
+      pageRef: /tags
+      weight: 3
+    - name: Categories
+      pageRef: /categories
+      weight: 4
+    - name: RSS
+      pageRef: /
+      weight: 5
+      params:
+        - format: rss
+
+outputFormats:
+  rss:
+    mediatype: application/rss+xml
+    baseName: feed      # Rename RSS feed URL from rss.xml to feed.xml
+
+mediaTypes:
+  font/woff2:
+    suffixes:
+      - woff2
+
+module:
+  hugoVersion:
+    extended: false
+    min: 0.134.0

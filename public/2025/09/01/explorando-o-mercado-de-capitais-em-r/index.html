@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+  
+  <meta charset="utf-8">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+    <meta name="description" content="
+
+
+
+
+
+  Introdução
+
+Na área de finanças, conhecer as cotações e as tendências do mercado de capitais é fundamental para uma tomada de decisão eficiente. Bancos, corretoras e intermediadoras financeiras geralmente dispõem de ferramentas que auxiliam o tomador de decisão quanto à escolha de ativos por meio de gráficos de cotações e indicadores financeiros. Contudo, essa tarefa pode ser facilmente executada na linguagem R usando a biblioteca quantmod e bibliotecas auxiliares. O objetivo desse post é mostrar como essa biblioteca pode auxiliar na análise financeira, no aprendizado e na resolução de problemas referentes ao mercado de capitais.">
+  
+
+
+<meta name="color-scheme" content="light dark">
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.140.2">
+  <title>Explorando o mercado de capitais em R | Núcleo Integrado de Pesquisa Econômica</title>
+  <link href="//localhost:4321/2025/09/01/explorando-o-mercado-de-capitais-em-r/" rel="canonical">
+
+
+  <link href="/favicon.ico" rel="icon" type="image/x-icon">
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+    <link href="/css/base.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        
+          <a class="Banner-link u-clickable" href="/">Núcleo Integrado de Pesquisa Econômica</a>
+        
+      </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/post/">Postagens do NIPE</a>
+        </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/trabalhos/">Produção científica</a>
+        </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/about/">Sobre nós</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <main>
+    <div class="u-wrapper">
+      <div class="u-padding">
+        
+
+  
+  <header class="Heading">
+  <h1 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/" rel="bookmark">Explorando o mercado de capitais em R</a>
+  </h1>
+  
+    
+      <time datetime="2025-09-01T00:00:00Z">September 1, 2025</time>
+    
+  
+</header>
+
+
+  <hr>
+
+
+
+
+<h1 id="introdução">
+  <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/#introdu%c3%a7%c3%a3o">Introdução</a>
+</h1>
+<p>Na área de finanças, conhecer as cotações e as tendências do mercado de capitais é fundamental para uma tomada de decisão eficiente. Bancos, corretoras e intermediadoras financeiras geralmente dispõem de ferramentas que auxiliam o tomador de decisão quanto à escolha de ativos por meio de gráficos de cotações e indicadores financeiros. Contudo, essa tarefa pode ser facilmente executada na linguagem <em>R</em> usando a biblioteca <em>quantmod</em> e bibliotecas auxiliares. O objetivo desse post é mostrar como essa biblioteca pode auxiliar na análise financeira, no aprendizado e na resolução de problemas referentes ao mercado de capitais.</p>
+
+
+
+
+<h1 id="importando-dados-do-mercado-de-capitais">
+  <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/#importando-dados-do-mercado-de-capitais">Importando dados do mercado de capitais</a>
+</h1>
+<p>O primeiro passo para explorar os dados do mercado de capitais é instalar e liberar a biblioteca.</p>
+<pre><code class="language-r">#install.packages(&quot;quantmod&quot;)
+library(quantmod)
+</code></pre>
+<pre><code>FALSE Carregando pacotes exigidos: xts
+</code></pre>
+<pre><code>FALSE Carregando pacotes exigidos: zoo
+</code></pre>
+<pre><code>FALSE 
+FALSE Anexando pacote: 'zoo'
+</code></pre>
+<pre><code>FALSE Os seguintes objetos são mascarados por 'package:base':
+FALSE 
+FALSE     as.Date, as.Date.numeric
+</code></pre>
+<pre><code>FALSE Carregando pacotes exigidos: TTR
+</code></pre>
+<pre><code>FALSE Registered S3 method overwritten by 'quantmod':
+FALSE   method            from
+FALSE   as.zoo.data.frame zoo
+</code></pre>
+<p>Tendo instalado e liberado a biblioteca, o próximo passo é importar as cotações dos ativos. Essa tarefa é feita usando a função <em>getSymbols</em>, a qual requer o código de negociação do ativo, de tal modo que, se o ativo for brasileiro esse código deve ser precedido da string <em>&quot;.SA&quot;</em>. Para exemplificar, considere importar as cotações da empresa Vale, com código de negociação <em>&ldquo;VALE3&rdquo;</em>.</p>
+<pre><code class="language-r">getSymbols(&quot;VALE3.SA&quot;)
+</code></pre>
+<pre><code>FALSE [1] &quot;VALE3.SA&quot;
+</code></pre>
+<p>O resultado é um dataframe com o preço de abertura <em>&ldquo;VALE3.SA.Open&rdquo;</em>, o preço máximo <em>&ldquo;VALE3.SA.High&rdquo;</em>, o preço mínimo <em>&ldquo;VALE3.SA.Low&rdquo;</em>, o preço de fechamento <em>&ldquo;VALE3.SA.Close&rdquo;</em>, o volume negociado <em>&ldquo;VALE3.SA.Volume&rdquo;</em> e o preço ajustado no <em>after market</em> <em>&ldquo;VALE3.SA.Adjusted&rdquo;</em>.</p>
+<p>Um gráfico simples da série pode ser gerado com o seguinte comando:</p>
+<pre><code class="language-r">plot(Cl(VALE3.SA), col = 'black')
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+
+
+
+
+<h1 id="visualizando-os-dados">
+  <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/#visualizando-os-dados">Visualizando os dados</a>
+</h1>
+<p>Um gráfico de velas pode ser elaborado usando a função <em>candleChart</em>. Para facilitar a visualização, considere representar na figura apenas o ano de 2023.</p>
+<pre><code class="language-r">candleChart(VALE3.SA[&quot;2023&quot;])
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<p>A biblioteca dispões de temas prontos que facilitam a visualização das cotações e personalizam a figura gerada. Por exemplo:</p>
+<pre><code class="language-r">candleChart(
+  VALE3.SA,
+  theme = &quot;white&quot;,
+  subset = '2023-06::2023-12'
+)
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<p>Agora considere que seja interessante mudar a cor dos candles de acordo com a variação da cotação, de modo que, caso a cotação suba, então o candle deve ter cor azul e caso a cotação caia o candle deve ter cor vermelha. Nesse caso, deve-se proceder da seguinte maneira:</p>
+<pre><code class="language-r">candleChart(
+  VALE3.SA,
+  theme = chartTheme(&quot;white&quot;, up.col = &quot;blue&quot;, dn.col = &quot;red&quot;),
+  subset = '2023-06::2023-12'
+)
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<p>Alguns indicadores podem ser incluídos na figura. Por exemplo, uma média móvel pode ser adicionada com a função <em>addSMA</em>, que deve ser requerida logo após a geração do gráfico de velas. No caso de uma média móvel de sete semanas, deve-se proceder como:</p>
+<pre><code class="language-r">addSMA(n = 7*5)
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<p>Use a função <em>addBBands()</em> para adicionar bandas de bollinger ao gráfico de velas.</p>
+<pre><code class="language-r">addBBands()
+</code></pre>
+<img src="/2025/09/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+
+
+
+
+<h1 id="conclusões">
+  <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/#conclus%c3%b5es">Conclusões</a>
+</h1>
+<p>A linguagem <em>R</em> dispõe de ferramentas bastante úteis para lidar com o mercado de capitais e a biblioteca <em>quantmod</em> é uma das mais completas e eficientes na parte de visualização dos dados. Maiores detalhes podem ser consultados em <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
+
+
+
+
+<h1 id="referências">
+  <a class="Heading-link u-clickable" href="/2025/09/01/explorando-o-mercado-de-capitais-em-r/#refer%c3%aancias">Referências</a>
+</h1>
+<p>quantmod. <strong>Quantitative Financial Modelling &amp; Trading Framework for R</strong>. <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
+<hr>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+
+
+
+      </div>
+    </div>
+  </main>
+  
+  <footer class="Footer">
+    <div class="u-wrapper">
+      <div class="u-padding u-noboosting">
+        <style>
+  .footer {
+    background-color: #333;
+      color: white;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+
+.footer-top {
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 0.6;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 110%;
+}
+.footer-column {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+.footer-column h3 {
+  margin-top: 0;
+}
+.footer-column p, .footer-column ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+.footer-column a:hover {
+  text-decoration: underline;
+} </style>
+  </head>
+  <body>
+  <footer class="footer">
+  <img src = "/images/logo.png",width = 90, height = 90>
+  <hr>
+  <div class="footer-top">
+  <p>Universidade Regional do Cariri (URCA)</p>
+  <p>Centro de Ciências Sociais Aplicadas</p>
+  <p>Departamento de Economia</p>
+  <p class="mb10">Rua Coronel Antônio Luiz, 1161, Bairro Pimenta, Crato-Ce</p>
+  </div>
+  <hr>
+  <div class="footer-columns">
+  <div class="footer-column">
+  <h3>
+  <a href="https://maps.app.goo.gl/XKKDVxHB6SAYKSBU7">
+  <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/place.png?raw=true" width="30" height="30">
+  </a> 
+  Localização
+</h3>
+  </div>
+  <div class="footer-column">
+  <h3>
+  <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/img_icon.png?raw=true" width="30" height="30">
+  Contatos
+</h3>
+  <p class="mb10">
+  <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/phone_icon1.png?raw=true" width="30" height="30">
+  (88) 3102-1204
+</p>
+  <p class="mb10">
+  <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/mail_icon.png?raw=true" width="30" height="30">
+  nipe.urca@gmail.com
+</p>
+  </div>
+  <div class="footer-column">
+  <h3>Mídias sociais</h3>
+  <p class="mb10">
+  <img src="https://github.com/Nipe-urca/Personal_Page/blob/main/www/instagram_icon.png?raw=true" width="30" height="30">
+  <a href="https://www.instagram.com/nipe_urca/?igsh=MWFmaGticnJ3ejVnZg%3D%3D">Instagram</a>
+  </p>
+  </div>
+  </div>
+  </footer>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

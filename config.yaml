@@ -1,0 +1,43 @@
+baseurl: /
+languageCode: pt-BR
+title: Núcleo Integrado de Pesquisa Econômica
+#logo: "https://raw.githubusercontent.com/Nipe-urca/Personal_Page/refs/heads/main/www/logo.png"
+theme: "hugo-flex"
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+permalinks:
+  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: Sobre nós
+      url: /about/
+    - name: Produção científica
+      url: /trabalhos/
+    - name: Postagens do NIPE
+      url: /post/
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: Página web do NIPE.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no
+
