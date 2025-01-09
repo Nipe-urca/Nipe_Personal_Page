@@ -16,7 +16,7 @@ menu:
     - name: Produção científica
       url: /trabalhos/
     - name: Postagens do NIPE
-      url: /post/
+      url: /titulo_posts/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
