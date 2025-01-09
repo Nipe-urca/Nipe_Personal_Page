@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:4321/2025/09/01/explorando-o-mercado-de-capitais-em-r/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>//localhost:4321/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:4321/post/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/titulo_posts/</loc>
+    <loc>//localhost:4321/categories/</loc>
   </url><url>
-    <loc>/trabalhos/</loc>
+    <loc>//localhost:4321/titulo_posts/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:4321/trabalhos/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:4321/about/</loc>
+  </url><url>
+    <loc>//localhost:4321/tags/</loc>
   </url>
 </urlset>
