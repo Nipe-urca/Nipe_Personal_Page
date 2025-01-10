@@ -3,6 +3,7 @@ languageCode: pt-BR
 title: Núcleo Integrado de Pesquisa Econômica
 #logo: "https://raw.githubusercontent.com/Nipe-urca/Personal_Page/refs/heads/main/www/logo.png"
 theme: "hugo-flex"
+output: blogdown::html_page
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -15,8 +16,8 @@ menu:
       url: /about/
     - name: Produção científica
       url: /trabalhos/
-#    - name: Postagens do NIPE
-#      url: /titulo_posts/
+    - name: Postagens do NIPE
+      url: /titulo_posts/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
