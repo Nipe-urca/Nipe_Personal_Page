@@ -3,11 +3,6 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   
-
-  
-  
-
-
   <meta charset="utf-8">
 
 
@@ -16,9 +11,15 @@
 
 
   
-    
-      <meta name="description" content="Página web do NIPE.">
-    
+    <meta name="description" content="
+
+
+
+
+
+  Introdução
+
+Na área de finanças, conhecer as cotações e as tendências do mercado de capitais é fundamental para uma tomada de decisão eficiente. Bancos, corretoras e intermediadoras financeiras geralmente dispõem de ferramentas que auxiliam o tomador de decisão quanto à escolha de ativos por meio de gráficos de cotações e indicadores financeiros. Contudo, essa tarefa pode ser facilmente executada na linguagem R usando a biblioteca quantmod e bibliotecas auxiliares. O objetivo desse post é mostrar como essa biblioteca pode auxiliar na análise financeira, no aprendizado e na resolução de problemas referentes ao mercado de capitais.">
   
 
 
@@ -31,16 +32,14 @@
 
 
 <meta name="generator" content="Hugo 0.140.2">
-  <title>Núcleo Integrado de Pesquisa Econômica</title>
-  <link href="http://localhost:4321/" rel="canonical">
+  <title>Explorando o mercado de capitais em R | Núcleo Integrado de Pesquisa Econômica</title>
+  <link href="http://localhost:4321/2025/01/01/explorando-o-mercado-de-capitais-em-r/" rel="canonical">
 
 
   <link href="/favicon.ico" rel="icon" type="image/x-icon">
 
 
 
-  <link href="alternate" rel="/feed.xml" type="application/rss+xml">
-
   
 
 
@@ -51,16 +50,8 @@
 
 
   
-
-  
-    
-    
-    
-    
     
   
-
-
   
     <link href="/css/base.css" rel="stylesheet">
 
@@ -106,27 +97,10 @@
         
 
   
-    
-    <header class="Heading">
+  <header class="Heading">
   <h1 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/" rel="bookmark">Núcleo Integrado de Pesquisa Econômica</a>
-  </h1>
-  
-</header>
-
-
-  
-
-  
-
-  
-  
-    <article>
-      
-      <header class="Heading">
-  <h2 class="Heading-title">
     <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/" rel="bookmark">Explorando o mercado de capitais em R</a>
-  </h2>
+  </h1>
   
     
       <time datetime="2025-01-01T00:00:00Z">January 1, 2025</time>
@@ -135,25 +109,22 @@
 </header>
 
 
-      
-        
-          
-            <hr>
+  <hr>
 
 
 
 
-<h2 id="introdução">
+<h1 id="introdução">
   <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#introdu%c3%a7%c3%a3o">Introdução</a>
-</h2>
+</h1>
 <p>Na área de finanças, conhecer as cotações e as tendências do mercado de capitais é fundamental para uma tomada de decisão eficiente. Bancos, corretoras e intermediadoras financeiras geralmente dispõem de ferramentas que auxiliam o tomador de decisão quanto à escolha de ativos por meio de gráficos de cotações e indicadores financeiros. Contudo, essa tarefa pode ser facilmente executada na linguagem <em>R</em> usando a biblioteca <em>quantmod</em> e bibliotecas auxiliares. O objetivo desse post é mostrar como essa biblioteca pode auxiliar na análise financeira, no aprendizado e na resolução de problemas referentes ao mercado de capitais.</p>
 
 
 
 
-<h2 id="importando-dados-do-mercado-de-capitais">
+<h1 id="importando-dados-do-mercado-de-capitais">
   <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#importando-dados-do-mercado-de-capitais">Importando dados do mercado de capitais</a>
-</h2>
+</h1>
 <p>O primeiro passo para explorar os dados do mercado de capitais é instalar e liberar a biblioteca.</p>
 <pre><code class="language-r">#install.packages(&quot;quantmod&quot;)
 library(quantmod)
@@ -189,9 +160,9 @@ FALSE   as.zoo.data.frame zoo
 
 
 
-<h2 id="visualizando-os-dados">
+<h1 id="visualizando-os-dados">
   <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#visualizando-os-dados">Visualizando os dados</a>
-</h2>
+</h1>
 <p>Um gráfico de velas pode ser elaborado usando a função <em>candleChart</em>. Para facilitar a visualização, considere representar na figura apenas o ano de 2023.</p>
 <pre><code class="language-r">candleChart(VALE3.SA[&quot;2023&quot;])
 </code></pre>
@@ -224,17 +195,17 @@ FALSE   as.zoo.data.frame zoo
 
 
 
-<h2 id="conclusões">
+<h1 id="conclusões">
   <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#conclus%c3%b5es">Conclusões</a>
-</h2>
+</h1>
 <p>A linguagem <em>R</em> dispõe de ferramentas bastante úteis para lidar com o mercado de capitais e a biblioteca <em>quantmod</em> é uma das mais completas e eficientes na parte de visualização dos dados. Maiores detalhes podem ser consultados em <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
 
 
 
 
-<h2 id="referências">
+<h1 id="referências">
   <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#refer%c3%aancias">Referências</a>
-</h2>
+</h1>
 <p>quantmod. <strong>Quantitative Financial Modelling &amp; Trading Framework for R</strong>. <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
 <hr>
 <p></p>
@@ -242,10 +213,7 @@ FALSE   as.zoo.data.frame zoo
 <p></p>
 <p></p>
 
-          
-        
-      
-      
+  
 
   
 
@@ -255,10 +223,7 @@ FALSE   as.zoo.data.frame zoo
 
 
 
-    </article>
-    
   
-
   
 
 

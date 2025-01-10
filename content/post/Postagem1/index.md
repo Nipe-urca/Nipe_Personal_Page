@@ -1,7 +1,7 @@
 ---
 title: "Explorando o mercado de capitais em R"
 author: "Helson Gomes de Souza"
-date: "2025-09-01"
+date: "2025-01-01"
 output: html_document
 draft: false
 ---
