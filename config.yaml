@@ -1,4 +1,4 @@
-baseurl: /
+baseURL: "https://nipe-urca.netlify.app/"
 languageCode: pt-BR
 title: Núcleo Integrado de Pesquisa Econômica
 #logo: "https://raw.githubusercontent.com/Nipe-urca/Personal_Page/refs/heads/main/www/logo.png"
