@@ -3,7 +3,7 @@ languageCode: pt-BR
 title: Núcleo Integrado de Pesquisa Econômica
 #logo: "https://raw.githubusercontent.com/Nipe-urca/Personal_Page/refs/heads/main/www/logo.png"
 theme: "hugo-flex"
-output: blogdown::html_page
+buildDrafts: true
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
