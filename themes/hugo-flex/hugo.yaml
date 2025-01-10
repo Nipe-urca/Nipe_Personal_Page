@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: "https://nipe-urca.netlify.app/"
 title: Núcleo Integrado de Pesquisa Econômica
 languageCode: pt-BR
 theme: hugo-flex
