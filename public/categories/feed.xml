@@ -7,8 +7,15 @@
     <description>Recent content in Categories on Núcleo Integrado de Pesquisa Econômica</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/categories/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acessando os dados mensais de variação do IPCA em R</title>
+      <link>http://localhost:4321/2025/01/02/acessando-os-dados-mensais-de-varia%C3%A7%C3%A3o-do-ipca-em-r/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/2025/01/02/acessando-os-dados-mensais-de-varia%C3%A7%C3%A3o-do-ipca-em-r/</guid>
+      <description>&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1 id=&#34;introdução&#34;&gt;&#xA;  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;http://localhost:4321/2025/01/02/acessando-os-dados-mensais-de-varia%C3%A7%C3%A3o-do-ipca-em-r/#introdu%c3%a7%c3%a3o&#34;&gt;Introdução&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;</description>
+    </item>
     <item>
       <title>Explorando o mercado de capitais em R</title>
       <link>http://localhost:4321/2025/01/01/explorando-o-mercado-de-capitais-em-r/</link>
