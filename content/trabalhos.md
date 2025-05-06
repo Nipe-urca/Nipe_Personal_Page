@@ -68,6 +68,9 @@ title: Produção científica do NIPE
             resultText = `<hr><h1>2024</h1> <p> <a href="http://dx.doi.org/10.9790/5933-1503020113"> On The Public Investment-Debt-Cash Linkages In The State Government Of Ceará</a>.
             Publicado no <a href = https://www.iosrjournals.org/iosr-jef.html> IOSR Journal of Economics and Finance</a>. Coautoria do Prof. Valdeir Monteiro.
             </p>
+            <h1>2025</h1> <p> <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527"> Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</a>.
+            Publicado na <a href = https://www.revistas.usp.br/ecoa> Revista de Economia Aplicada</a>. Autoria do Prof. Diogo Sobreira e coautoria do Prof. Jair Araujo (PPGER/UFC).
+            </p>
             <hr>
             `;
             break;
@@ -90,7 +93,11 @@ title: Produção científica do NIPE
             case 'aceitos':
               resultText = `
               <hr>
-              (i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.
+              <p>(i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.</p>
+              <p>(ii) Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Diogo Sobreira.</p>
+              <p>(iii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(iv) Climatic Factors in Economies of Scale: An Insight Into Agricultural Productivity in the State of Ceará-Brazil. The Journal of Developing Areas, 2025. Autoria do Prof. Helson Gomes.</p>
+              <p>(v) CEscolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
               <hr>
               `;
             break;

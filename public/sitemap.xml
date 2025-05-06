@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/2025/01/02/acessando-os-dados-mensais-de-varia%C3%A7%C3%A3o-do-ipca-em-r/</loc>
+    <loc>https://nipe-urca.netlify.app/2025/05/06/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nipe-urca.netlify.app/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nipe-urca.netlify.app/post/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nipe-urca.netlify.app/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/post/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/2025/01/01/explorando-o-mercado-de-capitais-em-r/</loc>
+    <loc>https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
+    <loc>https://nipe-urca.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:4321/titulo_posts/</loc>
+    <loc>https://nipe-urca.netlify.app/titulo_posts/</loc>
   </url><url>
-    <loc>http://localhost:4321/trabalhos/</loc>
+    <loc>https://nipe-urca.netlify.app/trabalhos/</loc>
   </url><url>
-    <loc>http://localhost:4321/about/</loc>
+    <loc>https://nipe-urca.netlify.app/about/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>https://nipe-urca.netlify.app/tags/</loc>
   </url>
 </urlset>

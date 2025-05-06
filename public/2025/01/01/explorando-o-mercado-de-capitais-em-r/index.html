@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
 
@@ -33,7 +33,7 @@ Na área de finanças, conhecer as cotações e as tendências do mercado de cap
 
 <meta name="generator" content="Hugo 0.140.2">
   <title>Explorando o mercado de capitais em R | Núcleo Integrado de Pesquisa Econômica</title>
-  <link href="http://localhost:4321/2025/01/01/explorando-o-mercado-de-capitais-em-r/" rel="canonical">
+  <link href="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/" rel="canonical">
 
 
   <link href="/favicon.ico" rel="icon" type="image/x-icon">
@@ -53,7 +53,7 @@ Na área de finanças, conhecer as cotações e as tendências do mercado de cap
     
   
   
-    <link href="/css/base.css" rel="stylesheet">
+      <link href="/css/base.min.2fbd9dd903cac0d10e1ae4765ed55e6f79bf4e4728d27a56f74dae99768ca735.css" rel="stylesheet" integrity="sha256-L72d2QPKwNEOGuR2XtVeb3m/Tkco0npW902umXaMpzU=" crossorigin="anonymous">
 
 
 
@@ -155,7 +155,7 @@ FALSE   as.zoo.data.frame zoo
 <p>Um gráfico simples da série pode ser gerado com o seguinte comando:</p>
 <pre><code class="language-r">plot(Cl(VALE3.SA), col = 'black')
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
 
 
 
@@ -166,7 +166,7 @@ FALSE   as.zoo.data.frame zoo
 <p>Um gráfico de velas pode ser elaborado usando a função <em>candleChart</em>. Para facilitar a visualização, considere representar na figura apenas o ano de 2023.</p>
 <pre><code class="language-r">candleChart(VALE3.SA[&quot;2023&quot;])
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 <p>A biblioteca dispões de temas prontos que facilitam a visualização das cotações e personalizam a figura gerada. Por exemplo:</p>
 <pre><code class="language-r">candleChart(
   VALE3.SA,
@@ -174,7 +174,7 @@ FALSE   as.zoo.data.frame zoo
   subset = '2023-06::2023-12'
 )
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 <p>Agora considere que seja interessante mudar a cor dos candles de acordo com a variação da cotação, de modo que, caso a cotação suba, então o candle deve ter cor azul e caso a cotação caia o candle deve ter cor vermelha. Nesse caso, deve-se proceder da seguinte maneira:</p>
 <pre><code class="language-r">candleChart(
   VALE3.SA,
@@ -182,15 +182,15 @@ FALSE   as.zoo.data.frame zoo
   subset = '2023-06::2023-12'
 )
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
 <p>Alguns indicadores podem ser incluídos na figura. Por exemplo, uma média móvel pode ser adicionada com a função <em>addSMA</em>, que deve ser requerida logo após a geração do gráfico de velas. No caso de uma média móvel de sete semanas, deve-se proceder como:</p>
 <pre><code class="language-r">addSMA(n = 7*5)
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 <p>Use a função <em>addBBands()</em> para adicionar bandas de bollinger ao gráfico de velas.</p>
 <pre><code class="language-r">addBBands()
 </code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 
 
