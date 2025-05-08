@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [NIPE conquista bolsa de produtividade em pesquisa](/2025/05/08/nipe-conquista-bolsa-de-produtividade-em-pesquisa/)
+
 # [Alerta de publicação em periódico](/2025/05/06/alerta-de-publicação-em-periódico/)
 
 # [Acessando as variações mensais do IPCA em R](/2025/01/02/acessando-as-variações-mensais-do-ipca-em-r/)

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   
 
   
@@ -32,7 +32,7 @@
 
 <meta name="generator" content="Hugo 0.140.2">
   <title>Núcleo Integrado de Pesquisa Econômica</title>
-  <link href="https://nipe-urca.netlify.app/" rel="canonical">
+  <link href="http://localhost:4321/" rel="canonical">
 
 
   <link href="/favicon.ico" rel="icon" type="image/x-icon">
@@ -62,11 +62,26 @@
     
     
     
+      
+      
+    
     
     
   
     
     
+    
+      
+      
+    
+    
+    
+  
+    
+    
+    
+      
+      
     
     
     
@@ -74,7 +89,7 @@
 
 
   
-      <link href="/css/base.min.2fbd9dd903cac0d10e1ae4765ed55e6f79bf4e4728d27a56f74dae99768ca735.css" rel="stylesheet" integrity="sha256-L72d2QPKwNEOGuR2XtVeb3m/Tkco0npW902umXaMpzU=" crossorigin="anonymous">
+    <link href="/css/base.css" rel="stylesheet">
 
 
 
@@ -132,6 +147,45 @@
   
 
   
+  
+    <article>
+      
+      <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/2025/05/08/nipe-conquista-bolsa-de-produtividade-em-pesquisa/" rel="bookmark">NIPE conquista bolsa de produtividade em pesquisa</a>
+  </h2>
+  
+    
+      <time datetime="2025-05-08T00:00:00Z">May 8, 2025</time>
+    
+  
+</header>
+
+
+      
+        
+          
+            <hr>
+<p>O Núcleo Integrado de Pesquisa Econômica foi agraciado com uma bolsa de produtividade em pesquisa no <em>programa de bolsa de produtividade em pesquisa, estímulo à interiorização e inovação tecnológica - BPI</em> da Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (Funcap), regido pelo <a href="https://montenegro.funcap.ce.gov.br/sugba/edital/684.pdf">edital 11/2024</a>. O projeto intitulado &ldquo;<em><strong>Medindo a alocação ótima de enfermos entre os municípios do estado do Ceará</strong></em>&rdquo;, de autoria do <a href="helsongsouza.netlify.app">Prof. Helson Gomes de Souza</a> foi contemplado na categoria BPI-2, que englobou os profissionais com no máximo cinco anos após a conclusão do doutorado e com regime de trabalho de 40 horas semanais. O objetivo central do projeto é indicar qual o melhor estabelecimento de saúde para onde os pacientes devem ser enviados - quando não há opções locais de tratamento - de maneira a minimizar os custos do transporte dos pacientes, os custos de tratamento e perdas de bem-estar dos enfermos nos municípios cearenses. Clique <a href="https://montenegro.funcap.ce.gov.br/sugba/edital/resultados/751.pdf">aqui</a> para acessar o resultado da chamada na íntegra.</p>
+<hr>
+
+          
+        
+      
+      
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+      <div class="Divider"></div>
+    
   
     <article>
       
@@ -335,11 +389,11 @@ FALSE [1] TRUE
 <p>O comando a seguir demonstra um exemplo onde são solicitadas as variações mensais do IPCA na forma de um gráfico de linhas para o Brasil desde janeiro até dezembro de 2024.</p>
 <pre><code class="language-r">ipca(ano_inicial = 2024, ano_final = 2024, mes_inicial = 1, mes_final = 12, capital = &quot;all&quot;, plot = T)
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+<img src="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
 <p>Em um exemplo complementar, caso o usuário deseje acessar os dados para a região metropolitana de Recife-PE, basta substituir <em>capital = &ldquo;all&rdquo;</em> por <em>capital = &ldquo;2601&rdquo;</em> na função, isto é:</p>
 <pre><code class="language-r">ipca(ano_inicial = 2024, ano_final = 2024, mes_inicial = 1, mes_final = 12, capital = &quot;2601&quot;, plot = T)
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 
 
 
@@ -433,7 +487,7 @@ FALSE   as.zoo.data.frame zoo
 <p>Um gráfico simples da série pode ser gerado com o seguinte comando:</p>
 <pre><code class="language-r">plot(Cl(VALE3.SA), col = 'black')
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
 
 
 
@@ -444,7 +498,7 @@ FALSE   as.zoo.data.frame zoo
 <p>Um gráfico de velas pode ser elaborado usando a função <em>candleChart</em>. Para facilitar a visualização, considere representar na figura apenas o ano de 2023.</p>
 <pre><code class="language-r">candleChart(VALE3.SA[&quot;2023&quot;])
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 <p>A biblioteca dispões de temas prontos que facilitam a visualização das cotações e personalizam a figura gerada. Por exemplo:</p>
 <pre><code class="language-r">candleChart(
   VALE3.SA,
@@ -452,7 +506,7 @@ FALSE   as.zoo.data.frame zoo
   subset = '2023-06::2023-12'
 )
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 <p>Agora considere que seja interessante mudar a cor dos candles de acordo com a variação da cotação, de modo que, caso a cotação suba, então o candle deve ter cor azul e caso a cotação caia o candle deve ter cor vermelha. Nesse caso, deve-se proceder da seguinte maneira:</p>
 <pre><code class="language-r">candleChart(
   VALE3.SA,
@@ -460,15 +514,15 @@ FALSE   as.zoo.data.frame zoo
   subset = '2023-06::2023-12'
 )
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
 <p>Alguns indicadores podem ser incluídos na figura. Por exemplo, uma média móvel pode ser adicionada com a função <em>addSMA</em>, que deve ser requerida logo após a geração do gráfico de velas. No caso de uma média móvel de sete semanas, deve-se proceder como:</p>
 <pre><code class="language-r">addSMA(n = 7*5)
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 <p>Use a função <em>addBBands()</em> para adicionar bandas de bollinger ao gráfico de velas.</p>
 <pre><code class="language-r">addBBands()
 </code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 
 
