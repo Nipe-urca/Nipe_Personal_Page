@@ -1,0 +1,16 @@
+---
+title: "Boas vindas aos estudantes que ingressaram na equipe do NIPE"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-05-13"
+output: html_document
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+
+O Núcleo Integrado de Pesquisa Econômica deseja boas vindas aos estudantes de graduação e pós-graduação que recentemente passaram a compor a equipe do grupo de pesquisa. Quatro discentes foram selecionados para participar de monitorias e projetos de pesquisa coordenados pelos seus respectivos orientadores (ou coorientadores). Dois dos novos membros são alunos da graduação em Ciências Econômicas da Urca, sendo a discente [Tamires De Aquino Silva](http://lattes.cnpq.br/4254365139373324) - supervisionada pelo [Prof. Diogo Sobreira](http://lattes.cnpq.br/3280720633645199) - e a discente [Jennifer de Andrade Freires](http://lattes.cnpq.br/0851677836331415) - bolsista PIBIC/Funcap sob orientação do [Prof. Helson Gomes de Souza](helsongsouza.netlify.app)- . Os demais discentes são estudantes da pós-graduação e ex-alunos da graduação em Ciências Econômicas da Urca, sendo o discente [Anderson Oliveira Brito](http://lattes.cnpq.br/5601554430093470) - estudante de Mestrado e orientando do [Prof. Áydano Ribeiro Leite](http://lattes.cnpq.br/0092907266715994) no [PPGERU/URCA](https://www.urca.br/ppgeru/) - e o discente [Gabriel Antony Leal de Miranda](http://lattes.cnpq.br/7303439007811624) - doutorando em Economia Aplicada no [PPGE/UFPB](https://sigaa.ufpb.br/sigaa/public/programa/portal.jsf?id=1875) e coorientando do [Prof. Áydano Ribeiro Leite](http://lattes.cnpq.br/0092907266715994) -. Os novos membros desenvolverão atividades de ensino, pesquisa e extensão junto à Urca e auxiliarão os seus orientadores nas demandas relativas aos projetos de pesquisa do NIPE.
+
+<hr>

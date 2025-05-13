@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Boas vindas aos estudantes que ingressaram na equipe do NIPE](/2025/05/13/boas-vindas-aos-estudantes-que-ingressaram-na-equipe-do-nipe/)
+
 # [NIPE conquista bolsa de produtividade em pesquisa](/2025/05/08/nipe-conquista-bolsa-de-produtividade-em-pesquisa/)
 
 # [Alerta de publicação em periódico](/2025/05/06/alerta-de-publicação-em-periódico/)

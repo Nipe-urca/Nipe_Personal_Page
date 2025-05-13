@@ -42,6 +42,10 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
 <p></p>
 <h1 align="center"> Composição da equipe</h1>
 
+<hr>
+
+<h3 align = "center" > Pesquisadores </h3>
+
 <body>
   <div class="row">
   <div class="column">
@@ -67,6 +71,38 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
   <p> Doutor em Economia (UFBA) </p>
   <p> Área mãe: Teoria Econômica </p>
   <img src="/images/aydanoCircular.png" width="35%" height="110">
+  </div>
+  </div>
+  <hr>
+  <h3 align = "center" > Estudantes de Pós-Graduação</h3>
+  <div class="row">
+  <div class="column">
+  <a href = http://lattes.cnpq.br/5601554430093470> Anderson Oliveira Brito</a>
+  <p> Mestrando (PPGERU/URCA) </p>
+  <p> Área mãe: Teoria Econômica </p>
+  <img src="/images/andersonCircular.png" width="35%" height="110">
+  </div>
+  <div class="column">
+  <a href = http://dgp.cnpq.br/dgp/espelhogrupo/811785#> Gabriel Antony Miranda</a>
+  <p> Doutorando (PPGE/UFPB) </p>
+  <p> Área mãe: Teoria Econômica </p>
+  <img src="/images/gabrielCircular.png" width="35%" height="110">
+  </div>
+  </div>
+  <hr>
+  <h3 align = "center" > Estudantes de Graduação</h3>
+  <div class="row">
+  <div class="column">
+  <a href = http://lattes.cnpq.br/4254365139373324> Tamires De Aquino Silva</a>
+  <p> Graduanda em Economia (URCA) </p>
+  <p> Área mãe: Microeconometria </p>
+  <img src="/images/tamiresCircular.png" width="35%" height="110">
+  </div>
+  <div class="column">
+  <a href =  http://lattes.cnpq.br/0851677836331415> Jennifer de Andrade Freires</a>
+  <p> Graduanda em Economia (URCA) </p>
+  <p> Área mãe: Teoria Econômica </p>
+  <img src="/images/jenniferCircular.png" width="35%" height="110">
   </div>
   </div>
   <hr>
