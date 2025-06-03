@@ -1,0 +1,16 @@
+---
+title: "Alerta de seminários de Pesquisa"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-06-03"
+output: html_document
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+
+O Núcleo Integrado de Pesquisa Econômica convida a comidade acadêmica em geral para participar do primeiro seminário de pesquisa do NIPE. O seminário ocorrerá no dia 05/06/2025 às 15:30 e será realizado no modo remoto com transmissão via google meet. O convidado é o Prof. Dr. João Ricardo (FGV-EESP) que ministrará detalhes da pesquisa intitulada "The Square Root of All Evil: The Role of Market Power in Fiscal Consolidations". Clique [aqui](https://meet.google.com/ipn-scog-sah) para ser direcionado ao link de acesso ao seminário.
+
+</hr>

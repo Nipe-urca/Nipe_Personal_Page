@@ -97,7 +97,8 @@ title: Produção científica do NIPE
               <p>(ii) Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Diogo Sobreira.</p>
               <p>(iii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
               <p>(iv) Climatic Factors in Economies of Scale: An Insight Into Agricultural Productivity in the State of Ceará-Brazil. The Journal of Developing Areas, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(v) CEscolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(v) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(vi) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>
               `;
             break;
