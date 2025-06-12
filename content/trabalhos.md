@@ -70,6 +70,9 @@ title: Produção científica do NIPE
             </p>
             <h1>2025</h1> <p> <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527"> Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</a>.
             Publicado na <a href = https://www.revistas.usp.br/ecoa> Revista de Economia Aplicada</a>. Autoria do Prof. Diogo Sobreira e coautoria do Prof. Jair Araujo (PPGER/UFC).
+            <p> <a href="https://www.bnb.gov.br/revista/ren/article/view/1617/2227"> Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense</a>.
+            Publicado na <a href = https://www.bnb.gov.br/revista/ren/issue/view/265> Revista Econômica do Nordeste</a>. Autoria do Prof. Diogo Sobreira e coautoria dos professores do PPGER/UFC Jair Araujo, Francisco Tabosa, Edward Costa e Ahmad Khan.
+            </p>
             </p>
             <hr>
             `;
@@ -94,11 +97,10 @@ title: Produção científica do NIPE
               resultText = `
               <hr>
               <p>(i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(ii) Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Diogo Sobreira.</p>
-              <p>(iii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(iv) Climatic Factors in Economies of Scale: An Insight Into Agricultural Productivity in the State of Ceará-Brazil. The Journal of Developing Areas, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(v) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(vi) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
+              <p>(ii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(iii) Climatic Factors in Economies of Scale: An Insight Into Agricultural Productivity in the State of Ceará-Brazil. The Journal of Developing Areas, 2025. Autoria do Prof. Helson Gomes.</p>
+              <p>(iv) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(v) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>
               `;
             break;

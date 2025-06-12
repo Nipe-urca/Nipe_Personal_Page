@@ -1,0 +1,14 @@
+---
+title: "Alerta de publicação em periódico"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-06-12"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+A Revista Econômica do Nordeste publicou no número 2 do volume 56 o artigo intitulado "***Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense***", de autoria do Prof. Dr. Diogo Sobreira (NIPE/URCA) com coautoria dos professores Jair Araujo, Francisco Tabosa, Edward Costa e Ahmad Khan, do Programa de Pós-Graduação em Economia Rural da Universidade Federal do Ceará (PPGER/UFC). O trabalho objetiva avaliar o efeito da maior intensidade no acesso ao crédito rural sobre a produção agropecuária no estado do Ceará.  Os autores constataram uma associação positiva e significativa entre a maior disponibilidade do crédito rural e os maiores níveis de produção agropecuária. Clique [aqui](https://www.bnb.gov.br/revista/ren/article/view/1617/2227) e acesse o estudo na íntegra.
+
+</hr>
