@@ -1,0 +1,14 @@
+---
+title: "Pesquisadores do NIPE participarão do VI EEA-SE"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-06-26"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O NIPE estará presente no [VI Encontro de Economia Aplicada de Sergipe (VI EEA-SE)](https://observatorio.fies.org.br/inscricao/home), que acontecerá nos dias 14 e 15 de agosto de 2025 na Universidade Federal de Sergipe (UFS). A presença no evento decorre da aprovação do trabalho intitulado ***"Pass-through cambial e inflação brasileira: uma abordagem via funções impulso-resposta em modelos VAR"*** para apresentação na área temática de teoria econômica e métodos quantitativos. O trabalho foi elaborado sob autoria do discente Anderson Oliveira com coautoria do Prof. Dr. Áydano Ribeiro Leite. Os demais membros do NIPE parabenizam os autores pela aprovação do trabalho no evento.
+
+</hr>
