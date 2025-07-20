@@ -1,0 +1,14 @@
+---
+title: "Alerta de publicação em periódico"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-07-20"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O periódico *The Journal of Developing Areas* publicou no número 3 do volume 59 o artigo intitulado "***Climatic Factors in Economies of Scale: An Insight into Agricultural Productivity in the State of Ceará-Brazil***", de autoria do Prof. Dr. Helson Gomes de Souza (NIPE/URCA) com coautoria do prof. Dr. Francisco Tabosa (PPGER/UFC). O manuscrito usa uma abordagem de equilíbrio geral dinâmica não estocástica aplicada às regiões de planejamento do estado do Ceará para simular uma instabilidade climática persistente e quantificar as mudanças nos indicadores de produtividade das economias e deseconomias de escala da agricultura cearense. Os autores constataram que os produtores que operam em economias de escala tendem a ter melhores indicadores de produtividade em períodos de instabilidades climáticas persistentes do que os produtores que operam em deseconomias de escala. Clique [aqui](https://muse.jhu.edu/pub/51/article/965532) e acesse o manuscrito na íntegra.
+
+</hr>

@@ -65,14 +65,21 @@ title: Produção científica do NIPE
             resultText = `<p>Selecione um item.</p>`;
             break;
           case 'periodicos':
-            resultText = `<hr><h1>2024</h1> <p> <a href="http://dx.doi.org/10.9790/5933-1503020113"> On The Public Investment-Debt-Cash Linkages In The State Government Of Ceará</a>.
-            Publicado no <a href = https://www.iosrjournals.org/iosr-jef.html> IOSR Journal of Economics and Finance</a>. Coautoria do Prof. Valdeir Monteiro.
-            </p>
-            <h1>2025</h1> <p> <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527"> Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</a>.
+            resultText = `<hr>
+            <h1>2025</h1> 
+            <p> <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527"> Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</a>.
             Publicado na <a href = https://www.revistas.usp.br/ecoa> Revista de Economia Aplicada</a>. Autoria do Prof. Diogo Sobreira e coautoria do Prof. Jair Araujo (PPGER/UFC).
+            </p>
             <p> <a href="https://www.bnb.gov.br/revista/ren/article/view/1617/2227"> Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense</a>.
             Publicado na <a href = https://www.bnb.gov.br/revista/ren/issue/view/265> Revista Econômica do Nordeste</a>. Autoria do Prof. Diogo Sobreira e coautoria dos professores do PPGER/UFC Jair Araujo, Francisco Tabosa, Edward Costa e Ahmad Khan.
             </p>
+            </p>
+            <p> <a href="https://muse.jhu.edu/pub/51/article/965532"> Climatic Factors in Economies of Scale: An Insight into Agricultural Productivity in the State of Ceará-Brazil</a>.
+            Publicado no <a href = https://muse.jhu.edu/journal/258> The Journal of Developing Areas</a>. Autoria do Prof. Helson Gomes de Souza e coautoria do Prof. Francisco Taboea (PPGER/UFC).
+            </p>
+            <h1>2024</h1> 
+            <p> <a href="http://dx.doi.org/10.9790/5933-1503020113"> On The Public Investment-Debt-Cash Linkages In The State Government Of Ceará</a>.
+            Publicado no <a href = https://www.iosrjournals.org/iosr-jef.html> IOSR Journal of Economics and Finance</a>. Coautoria do Prof. Valdeir Monteiro.
             </p>
             <hr>
             `;
@@ -98,9 +105,8 @@ title: Produção científica do NIPE
               <hr>
               <p>(i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.</p>
               <p>(ii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(iii) Climatic Factors in Economies of Scale: An Insight Into Agricultural Productivity in the State of Ceará-Brazil. The Journal of Developing Areas, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(iv) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(v) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
+              <p>(iii) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(iv) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>
               `;
             break;

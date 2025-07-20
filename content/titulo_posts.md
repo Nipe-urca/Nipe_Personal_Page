@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de publicação em periódico](/2025/07/20/alerta-de-publicação-em-periódico/)
+
 # [Pesquisadores do NIPE participarão do VI EEA-SE](/2025/06/26/pesquisadores-do-nipe-participarão-do-vi-eea-se/)
 
 
