@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/</loc>
-    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/2025/07/20/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/2025/06/26/pesquisadores-do-nipe-participar%C3%A3o-do-vi-eea-se/</loc>
-    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/2025/06/26/pesquisadores-do-nipe-participar%C3%A3o-do-vi-eea-se/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/2025/06/12/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/</loc>

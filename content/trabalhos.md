@@ -77,6 +77,9 @@ title: Produção científica do NIPE
             <p> <a href="https://muse.jhu.edu/pub/51/article/965532"> Climatic Factors in Economies of Scale: An Insight into Agricultural Productivity in the State of Ceará-Brazil</a>.
             Publicado no <a href = https://muse.jhu.edu/journal/258> The Journal of Developing Areas</a>. Autoria do Prof. Helson Gomes de Souza e coautoria do Prof. Francisco Taboea (PPGER/UFC).
             </p>
+            <p> <a href="https://doi.org/10.61673/ren.2025.1661"> Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras</a>.
+            Publicado na <a href = https://www.bnb.gov.br/revista/ren/index> Revista Econômica do Nordeste</a>. Coutoria do Prof. Helson Gomes de Souza.
+            </p>
             <h1>2024</h1> 
             <p> <a href="http://dx.doi.org/10.9790/5933-1503020113"> On The Public Investment-Debt-Cash Linkages In The State Government Of Ceará</a>.
             Publicado no <a href = https://www.iosrjournals.org/iosr-jef.html> IOSR Journal of Economics and Finance</a>. Coautoria do Prof. Valdeir Monteiro.
@@ -104,7 +107,7 @@ title: Produção científica do NIPE
               resultText = `
               <hr>
               <p>(i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(ii) Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões Brasileiras. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(ii) . Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
               <p>(iii) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
               <p>(iv) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>

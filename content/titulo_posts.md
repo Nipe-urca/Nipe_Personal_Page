@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de publicação em periódico](/2025/08/08/alerta-de-publicação-em-periódico/)
+
 # [Alerta de publicação em periódico](/2025/07/20/alerta-de-publicação-em-periódico/)
 
 # [Pesquisadores do NIPE participarão do VI EEA-SE](/2025/06/26/pesquisadores-do-nipe-participarão-do-vi-eea-se/)
@@ -11,7 +13,7 @@ buildDrafts: true
 
 # [Alerta de publicação em periódico](/2025/06/12/alerta-de-publicação-em-periódico/)
 
-# [Alerta de seminário de pesquisa](/2025/03/06/alerta-de-seminario-de-pesquisa/)
+# [Alerta de seminário de pesquisa](/2025/06/03/alerta-de-seminários-de-pesquisa/)
 
 # [Boas vindas aos estudantes que ingressaram na equipe do NIPE](/2025/05/13/boas-vindas-aos-estudantes-que-ingressaram-na-equipe-do-nipe/)
 

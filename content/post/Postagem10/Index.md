@@ -1,0 +1,14 @@
+---
+title: "Alerta de publicação em periódico"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-08-08"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+A *Revista Econômica do Nordeste* publicou no número 3 do volume 56 o artigo intitulado "***Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões brasileiras***", de autoria do Prof. Dr. Francisco Tabosa (PPGER/UFC) com coautoria do prof. Dr. Helson Gomes de Souza (NIPE/URCA) e de discentes do PPGER/UFC. O manuscrito busca quantificar a desigualdade no acesso ao ensino superior por situação censitária das regiões brasileiras e identificar os seus principais determinantes. Os autores constataram que a desigualdade de oportunidade no acesso ao ensino superior vem caindo nas regiões brasileiras e que os seus principais condicionantes são a escolaridade e a renda familiar. Clique [aqui](https://doi.org/10.61673/ren.2025.1661) e acesse o manuscrito na íntegra.
+
+</hr>

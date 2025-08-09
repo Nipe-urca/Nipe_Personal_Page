@@ -56,6 +56,15 @@
     
     
     
+      
+      
+    
+    
+    
+  
+    
+    
+    
     
     
   
@@ -192,6 +201,84 @@
   
 
   
+  
+    <article>
+      
+      <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/2025/08/08/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/" rel="bookmark">Alerta de publicação em periódico</a>
+  </h2>
+  
+    
+      <time datetime="2025-08-08T00:00:00Z">August 8, 2025</time>
+    
+  
+</header>
+
+
+      
+        
+          
+            <hr>
+<p>A <em>Revista Econômica do Nordeste</em> publicou no número 3 do volume 56 o artigo intitulado &ldquo;<em><strong>Desigualdade de Oportunidade no Acesso ao Ensino Superior nos Meios Urbano e Rural das Regiões brasileiras</strong></em>&rdquo;, de autoria do Prof. Dr. Francisco Tabosa (PPGER/UFC) com coautoria do prof. Dr. Helson Gomes de Souza (NIPE/URCA) e de discentes do PPGER/UFC. O manuscrito busca quantificar a desigualdade no acesso ao ensino superior por situação censitária das regiões brasileiras e identificar os seus principais determinantes. Os autores constataram que a desigualdade de oportunidade no acesso ao ensino superior vem caindo nas regiões brasileiras e que os seus principais condicionantes são a escolaridade e a renda familiar. Clique <a href="https://doi.org/10.61673/ren.2025.1661">aqui</a> e acesse o manuscrito na íntegra.</p>
+</hr>
+
+          
+        
+      
+      
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+      <div class="Divider"></div>
+    
+  
+    <article>
+      
+      <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/2025/08/08/alerta-de-semin%C3%A1rios-de-pesquisa/" rel="bookmark">Alerta de seminários de Pesquisa</a>
+  </h2>
+  
+    
+      <time datetime="2025-08-08T00:00:00Z">August 8, 2025</time>
+    
+  
+</header>
+
+
+      
+        
+          
+            <hr>
+<p>O Núcleo Integrado de Pesquisa Econômica convida a comidade acadêmica em geral para participar do primeiro seminário de pesquisa do NIPE. O seminário ocorrerá no dia 13/08/2025 às 15:30 e será realizado no modo remoto com transmissão via google meet. O convidado é o Prof. Dr. Carlos Charris (UCB) que ministrará detalhes da pesquisa intitulada &ldquo;Paying to Stay Home? The Role of Cash Transfers in Social Distancing and COVID-19&rdquo;. Clique <a href="https://meet.google.com/vsm-gibs-dtz">aqui</a> para ser direcionado ao link de acesso ao seminário. Clique <a href="https://drive.google.com/file/d/1QYsZnS6HgzUyIJsMhAp_H6SycmCht-Ok/view?usp=sharing">aqui</a> para acessar o manuscrito que será pautado no seminário.</p>
+</hr>
+
+          
+        
+      
+      
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+      <div class="Divider"></div>
+    
   
     <article>
       
@@ -661,148 +748,16 @@ Nota: Eventuais dúvidas podem ser sanadas por meio de um contato via e-mail com
 
     </article>
     
-      <div class="Divider"></div>
+  
+
+  
+  <nav>
     
-  
-    <article>
-      
-      <header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/" rel="bookmark">Explorando o mercado de capitais em R</a>
-  </h2>
-  
+      <a class="Pagination u-clickable" href="/page/2/" rel="prev">« Previous</a>
     
-      <time datetime="2025-01-01T00:00:00Z">January 1, 2025</time>
     
-  
-</header>
+  </nav>
 
-
-      
-        
-          
-            <hr>
-
-
-
-
-<h2 id="introdução">
-  <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#introdu%c3%a7%c3%a3o">Introdução</a>
-</h2>
-<p>Na área de finanças, conhecer as cotações e as tendências do mercado de capitais é fundamental para uma tomada de decisão eficiente. Bancos, corretoras e intermediadoras financeiras geralmente dispõem de ferramentas que auxiliam o tomador de decisão quanto à escolha de ativos por meio de gráficos de cotações e indicadores financeiros. Contudo, essa tarefa pode ser facilmente executada na linguagem <em>R</em> usando a biblioteca <em>quantmod</em> e bibliotecas auxiliares. O objetivo desse post é mostrar como essa biblioteca pode auxiliar na análise financeira, no aprendizado e na resolução de problemas referentes ao mercado de capitais.</p>
-
-
-
-
-<h2 id="importando-dados-do-mercado-de-capitais">
-  <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#importando-dados-do-mercado-de-capitais">Importando dados do mercado de capitais</a>
-</h2>
-<p>O primeiro passo para explorar os dados do mercado de capitais é instalar e liberar a biblioteca.</p>
-<pre><code class="language-r">#install.packages(&quot;quantmod&quot;)
-library(quantmod)
-</code></pre>
-<pre><code>FALSE Carregando pacotes exigidos: xts
-</code></pre>
-<pre><code>FALSE Carregando pacotes exigidos: zoo
-</code></pre>
-<pre><code>FALSE 
-FALSE Anexando pacote: 'zoo'
-</code></pre>
-<pre><code>FALSE Os seguintes objetos são mascarados por 'package:base':
-FALSE 
-FALSE     as.Date, as.Date.numeric
-</code></pre>
-<pre><code>FALSE Carregando pacotes exigidos: TTR
-</code></pre>
-<pre><code>FALSE Registered S3 method overwritten by 'quantmod':
-FALSE   method            from
-FALSE   as.zoo.data.frame zoo
-</code></pre>
-<p>Tendo instalado e liberado a biblioteca, o próximo passo é importar as cotações dos ativos. Essa tarefa é feita usando a função <em>getSymbols</em>, a qual requer o código de negociação do ativo, de tal modo que, se o ativo for brasileiro esse código deve ser precedido da string <em>&quot;.SA&quot;</em>. Para exemplificar, considere importar as cotações da empresa Vale, com código de negociação <em>&ldquo;VALE3&rdquo;</em>.</p>
-<pre><code class="language-r">getSymbols(&quot;VALE3.SA&quot;)
-</code></pre>
-<pre><code>FALSE [1] &quot;VALE3.SA&quot;
-</code></pre>
-<p>O resultado é um dataframe com o preço de abertura <em>&ldquo;VALE3.SA.Open&rdquo;</em>, o preço máximo <em>&ldquo;VALE3.SA.High&rdquo;</em>, o preço mínimo <em>&ldquo;VALE3.SA.Low&rdquo;</em>, o preço de fechamento <em>&ldquo;VALE3.SA.Close&rdquo;</em>, o volume negociado <em>&ldquo;VALE3.SA.Volume&rdquo;</em> e o preço ajustado no <em>after market</em> <em>&ldquo;VALE3.SA.Adjusted&rdquo;</em>.</p>
-<p>Um gráfico simples da série pode ser gerado com o seguinte comando:</p>
-<pre><code class="language-r">plot(Cl(VALE3.SA), col = 'black')
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
-
-
-
-
-<h2 id="visualizando-os-dados">
-  <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#visualizando-os-dados">Visualizando os dados</a>
-</h2>
-<p>Um gráfico de velas pode ser elaborado usando a função <em>candleChart</em>. Para facilitar a visualização, considere representar na figura apenas o ano de 2023.</p>
-<pre><code class="language-r">candleChart(VALE3.SA[&quot;2023&quot;])
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
-<p>A biblioteca dispões de temas prontos que facilitam a visualização das cotações e personalizam a figura gerada. Por exemplo:</p>
-<pre><code class="language-r">candleChart(
-  VALE3.SA,
-  theme = &quot;white&quot;,
-  subset = '2023-06::2023-12'
-)
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
-<p>Agora considere que seja interessante mudar a cor dos candles de acordo com a variação da cotação, de modo que, caso a cotação suba, então o candle deve ter cor azul e caso a cotação caia o candle deve ter cor vermelha. Nesse caso, deve-se proceder da seguinte maneira:</p>
-<pre><code class="language-r">candleChart(
-  VALE3.SA,
-  theme = chartTheme(&quot;white&quot;, up.col = &quot;blue&quot;, dn.col = &quot;red&quot;),
-  subset = '2023-06::2023-12'
-)
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
-<p>Alguns indicadores podem ser incluídos na figura. Por exemplo, uma média móvel pode ser adicionada com a função <em>addSMA</em>, que deve ser requerida logo após a geração do gráfico de velas. No caso de uma média móvel de sete semanas, deve-se proceder como:</p>
-<pre><code class="language-r">addSMA(n = 7*5)
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
-<p>Use a função <em>addBBands()</em> para adicionar bandas de bollinger ao gráfico de velas.</p>
-<pre><code class="language-r">addBBands()
-</code></pre>
-<img src="/2025/01/01/explorando-o-mercado-de-capitais-em-r/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
-
-
-
-
-<h2 id="conclusões">
-  <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#conclus%c3%b5es">Conclusões</a>
-</h2>
-<p>A linguagem <em>R</em> dispõe de ferramentas bastante úteis para lidar com o mercado de capitais e a biblioteca <em>quantmod</em> é uma das mais completas e eficientes na parte de visualização dos dados. Maiores detalhes podem ser consultados em <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
-
-
-
-
-<h2 id="referências">
-  <a class="Heading-link u-clickable" href="/2025/01/01/explorando-o-mercado-de-capitais-em-r/#refer%c3%aancias">Referências</a>
-</h2>
-<p>quantmod. <strong>Quantitative Financial Modelling &amp; Trading Framework for R</strong>. <a href="https://www.quantmod.com/">https://www.quantmod.com/</a>.</p>
-<hr>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-
-          
-        
-      
-      
-
-  
-
-  
-
-
-
-
-
-    </article>
-    
-  
-
-  
 
 
 
