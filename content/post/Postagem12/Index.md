@@ -1,0 +1,14 @@
+---
+title: "Alerta de publicação em periódico"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-09-22"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O periódico *Environment and Development Economics* publicou o artigo intitulado "***Testing Kuznets’ environmental hypothesis for the Legal Amazon: a nonlinear approach***", de autoria do Prof. Dr. Helson Gomes de Souza (NIPE/URCA) com coautoria com o Dr. Gerrio Barbosa (Associação Bem Comum). O manuscrito usa um painel de dados empilhados para os municípios da Amazônia Legal por meio de uma estimação com *threshold* para testar a hipótese ambiental de Kuznets na Amazônia Legal. Os resultados demonstraram que na referida região é possível que ocorram maiores níveis de crescimento econômico ao mesmo tempo em que os níveis de degradação ambiental decrescem. Clique [aqui](https://doi.org/10.1017/S1355770X25000063) e acesse o manuscrito na íntegra.
+
+</hr>

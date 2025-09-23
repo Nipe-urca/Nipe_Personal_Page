@@ -179,6 +179,45 @@
       
       <header class="Heading">
   <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/2025/09/22/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/" rel="bookmark">Alerta de publicação em periódico</a>
+  </h2>
+  
+    
+      <time datetime="2025-09-22T00:00:00Z">September 22, 2025</time>
+    
+  
+</header>
+
+
+      
+        
+          
+            <hr>
+<p>O periódico <em>Environment and Development Economics</em> publicou o artigo intitulado &ldquo;<em><strong>Testing Kuznets’ environmental hypothesis for the Legal Amazon: a nonlinear approach</strong></em>&rdquo;, de autoria do Prof. Dr. Helson Gomes de Souza (NIPE/URCA) com coautoria com o Dr. Gerrio Barbosa (Associação Bem Comum). O manuscrito usa um painel de dados empilhados para os municípios da Amazônia Legal por meio de uma estimação com <em>threshold</em> para testar a hipótese ambiental de Kuznets na Amazônia Legal. Os resultados demonstraram que na referida região é possível que ocorram maiores níveis de crescimento econômico ao mesmo tempo em que os níveis de degradação ambiental decrescem. Clique <a href="https://doi.org/10.1017/S1355770X25000063">aqui</a> e acesse o manuscrito na íntegra.</p>
+</hr>
+
+          
+        
+      
+      
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+      <div class="Divider"></div>
+    
+  
+    <article>
+      
+      <header class="Heading">
+  <h2 class="Heading-title">
     <a class="Heading-link u-clickable" href="/2025/08/08/alerta-de-publica%C3%A7%C3%A3o-em-peri%C3%B3dico/" rel="bookmark">Alerta de publicação em periódico</a>
   </h2>
   
@@ -507,204 +546,6 @@
             <hr>
 <p>A Revista de Economia Aplicada publicou no número 3 do volume 27 o artigo intitulado &ldquo;<em><strong>Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</strong></em>&rdquo;, de autoria do Prof. Dr Diogo Sobreira (NIPE/URCA) com coautoria do Prof. Dr. Jair Araujo (PPGER/UFC). O trabalho objetiva analisar a desigualdade de oportunidade educacional no Brasil usando dados do PISA.  Os autores constataram uma relação positiva e significativa entre a desigualdade de oportunidade e o gap entre escolas privadas e públicas, indicando que a desigualdade injusta pode ser um dos fatores associados à diferença entre as pontuações PISA. Clique <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527">aqui</a> eacesse o estudo na íntegra.</p>
 <hr>
-
-          
-        
-      
-      
-
-  
-
-  
-
-
-
-
-
-    </article>
-    
-      <div class="Divider"></div>
-    
-  
-    <article>
-      
-      <header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/" rel="bookmark">Acessando as variações mensais do IPCA em R</a>
-  </h2>
-  
-    
-      <time datetime="2025-01-02T00:00:00Z">January 2, 2025</time>
-    
-  
-</header>
-
-
-      
-        
-          
-            <hr>
-
-
-
-
-<h2 id="introdução">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#introdu%c3%a7%c3%a3o">Introdução</a>
-</h2>
-<p>O Índice de Preços ao Consumidor Amplo (IPCA) é um indicador divulgado pelo Instituto Brasileiro de Geografia e Estatística (IBGE) que tem como finalidade expressar periodicamente o preço médio de uma cesta representativa de produtos no Brasil. Para a construção do índice, os preços dos produtos são consultados em um conjunto de regiões representativas do Brasil, as quais teoricamente poderiam refletir de modo geral o comportamento do consumidor mediano brasileiro.</p>
-<p>A cesta representativa do índice é composta por ítens de consumo pertencentes a nove categorias de produtos: (i) Alimentação e bebidas; (ii) Habitação; (iii) Artigos de residência; (iv) Vestuário; (v) Transportes; (vi) Saúde e cuidados pessoais; (vii) Despesas pessoais; (viii) Educação; e (ix) Comunicação. Os preços da cesta representativa geralmente são pesquisados em 10 regiões metropolitanas do Brasil, sendo: (i) 1501. Belém (PA); (ii) Fortaleza (CE); (iii) Recife (PE); (iv) Salvador (BA); (v) Belo Horizonte (MG); (vi) 3201. Grande Vitória (ES); (vii) Rio de Janeiro (RJ); (viii) São Paulo (SP); (ix) Curitiba (PR); e (x) Porto Alegre (RS).</p>
-<p>Algumas ferramentas viabilizam o acesso aos resultados do IPCA, como o portal <a href="https://sidra.ibge.gov.br/tabela/7060">SIDRA</a>, o portal IPEADATA ou o pacote do Banco Central do Brasil para uso em R, o <a href="https://cran.r-project.org/web/packages/rbcb/index.html">rbcb</a>. Contudo, o usuário pode acessar esses resultados de maneira direta no portal SIDRA por meio da linguagem R (ou quaisquer outras linguagens) usando técnicas simples de manipulação de dados sem a necessidade de recorrer a um pacote de terceiros.</p>
-<p>O objetivo desse post é, portanto, demonstrar uma maneira simples e factível de como obter acesso aos resultados mensais do IPCA usando R.</p>
-
-
-
-
-<h2 id="construindo-a-função">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#construindo-a-fun%c3%a7%c3%a3o">Construindo a função</a>
-</h2>
-
-
-
-
-<h3 id="bibliotecas">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#bibliotecas">Bibliotecas</a>
-</h3>
-<p>Para replicar os códigos aqui apresentados, é necessário que o leitor tenha instalado as bibliotecas <em>dplyr, tidyr, openxlsx, lubridate</em> e <em>ggplot2</em>. A instalação pode ser feita por meio da seguinte lógica: <em>install.packages(&ldquo;nome da biblioteca&rdquo;)</em>. Tendo instalado as bibliotecas, o próximo passo é liberá-las para o uso.</p>
-<pre><code class="language-r">lapply(list(&quot;dplyr&quot;, &quot;tidyr&quot;, &quot;ggplot2&quot;, &quot;lubridate&quot;, &quot;openxlsx&quot;), require, character.only = T)
-</code></pre>
-<pre><code>FALSE [[1]]
-FALSE [1] TRUE
-FALSE 
-FALSE [[2]]
-FALSE [1] TRUE
-FALSE 
-FALSE [[3]]
-FALSE [1] TRUE
-FALSE 
-FALSE [[4]]
-FALSE [1] TRUE
-FALSE 
-FALSE [[5]]
-FALSE [1] TRUE
-</code></pre>
-
-
-
-
-<h3 id="parâmetros-da-função">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#par%c3%a2metros-da-fun%c3%a7%c3%a3o">Parâmetros da função</a>
-</h3>
-<p>A ideia central é construir uma função em que o usuário possa escolher um período e uma região metropolitana para obter as informações. Assim, a função será elaborada com base nos seguintes parâmetros.</p>
-<ul>
-<li>
-<p><em>mes_inicial</em>: Argumento numérico {1,2,&hellip;,12} que indica o número do mês que inicia o período de interesse.</p>
-</li>
-<li>
-<p><em>mes_final</em>: Argumento numérico {1,2,&hellip;,12} que indica o número do mês que finaliza o período de interesse.</p>
-</li>
-<li>
-<p><em>ano_inicial</em>: Argumento numérico {2020, 2021, &hellip;, 2024} que indica o número do ano que inicia o período de interesse.</p>
-</li>
-<li>
-<p><em>ano_final</em>: Argumento numérico {2020, 2021, &hellip;, 2024} que indica o número do ano que finaliza o período de interesse.</p>
-</li>
-<li>
-<p><em>capital</em>: Argumento não numérico que indica o código da região metropolitaba de interesse, possuindo os seguintes valores válidos: (i) &ldquo;all&rdquo; para o Brasil; (ii) &ldquo;1501&rdquo; para Belém (PA); (iii) &ldquo;2301&rdquo; para Fortaleza (CE); (iv) &ldquo;2601&rdquo; para Recife (PE); (v) &ldquo;2901&rdquo; para Salvador (BA); (vi) &ldquo;3101&rdquo; para Belo Horizonte (MG); (vii) &ldquo;3201&rdquo; para Grande Vitória (ES); (viii) &ldquo;3301&rdquo; para Rio de Janeiro (RJ); (ix) &ldquo;3501&rdquo; para São Paulo (SP); (x) &ldquo;4101&rdquo; para Curitiba (PR); e (xi) &ldquo;4301&rdquo; para Porto Alegre (RS).</p>
-</li>
-</ul>
-<p><em>plot</em>: Argumento lógico. TRUE se o usuário deseja que a função retorne um gráfico de linhas com as variações mensais e FALSE se o usuário deseja que a função retorne um dataframe.</p>
-<p>Dadas essas definições, a função para acesso aos resultados do IPCA pode assumir a seguinte forma:</p>
-
-
-
-
-<h3 id="especificação-da-função">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#especifica%c3%a7%c3%a3o-da-fun%c3%a7%c3%a3o">Especificação da função</a>
-</h3>
-<pre><code class="language-r">ipca = function(mes_inicial, mes_final, ano_inicial, ano_final, capital = &quot;all&quot;, plot = TRUE){
-  rmet = data.frame(
-    codigo = c(&quot;all&quot;, 1501, 2301, 2601, 2901, 3101, 3201, 3301, 3501, 4101, 4301),
-    capital = c(&quot;Brasil&quot;, &quot;Belém (PA)&quot;, &quot;Fortaleza (CE)&quot;, &quot;Recife (PE)&quot;, &quot;Salvador (BA)&quot;, &quot;Belo Horizonte (MG)&quot;, &quot;Grande Vitória (ES)&quot;,
-                &quot;Rio de Janeiro (RJ)&quot;, &quot;São Paulo (SP)&quot;, &quot;Curitiba (PR)&quot;, &quot;Porto Alegre (RS)&quot;
-    ))
-  dt = data.frame()
-  tipo = ifelse(capital == &quot;all&quot;, &quot;n1&quot;, &quot;n7&quot;)
-  for(ano in ano_inicial:ano_final){
-    for(mes in mes_inicial:mes_final){
-      if(nchar(mes) == 1){
-        link = sprintf(&quot;https://sidra.ibge.gov.br/geratabela?format=xlsx&amp;name=tabela7060.xlsx&amp;terr=N&amp;rank=-&amp;query=t/7060/%s/%s/v/63/p/%i0%i/c315/7169/d/v63%%202/l/,p%%2Bt%%2Bv,c315&quot;,
-                       tipo,
-                       capital,
-                       ano,
-                       mes
-        )
-      }else{
-        link = sprintf(&quot;https://sidra.ibge.gov.br/geratabela?format=xlsx&amp;name=tabela7060.xlsx&amp;terr=N&amp;rank=-&amp;query=t/7060/%s/%s/v/63/p/%i%i/c315/7169/d/v63%%202/l/,p%%2Bt%%2Bv,c315&quot;,
-                       tipo,
-                       capital,
-                       ano,
-                       mes
-        )
-      }
-      
-      dt1 = read.xlsx(link, startRow = 4)
-      dt1 = dt1[2,]
-      datas = my(sprintf(&quot;%i-%i&quot;, mes, ano))
-      names(dt1) = c(&quot;Produto&quot;, c(as.character(datas)))
-      dt1 = dt1 %&gt;% 
-        gather(key = &quot;data&quot;, value = &quot;ipca&quot;, 2:ncol(dt1))
-      dt = rbind(dt, dt1)
-    }
-  }
-  
-  
-  
-  p = ggplot(dt)+
-    geom_line(aes(x = as.Date(data), y = as.numeric(ipca)), color = &quot;cyan&quot;)+
-    ylab(&quot;Variação no IPCA (%)&quot;) +
-    xlab(&quot;Período&quot;)+
-    theme_bw()+
-    labs(
-      caption = &quot;Fonte: IBGE&quot;,
-      title = sprintf(&quot;Variação nensal do IPCA (%s)&quot;, rmet$capital[rmet$codigo == as.character(capital)])
-    ) +
-    theme(
-      plot.caption = element_text(size = 10, color = &quot;blue&quot;, face = &quot;italic&quot;),
-      plot.title = element_text(hjust = 0.5, face = &quot;italic&quot;)
-    )
-  if(plot == FALSE){
-    return(dt)
-  }else{
-    show(p)
-  }
-}
-</code></pre>
-
-
-
-
-<h2 id="testando-a-função">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#testando-a-fun%c3%a7%c3%a3o">Testando a função</a>
-</h2>
-<p>O comando a seguir demonstra um exemplo onde são solicitadas as variações mensais do IPCA na forma de um gráfico de linhas para o Brasil desde janeiro até dezembro de 2024.</p>
-<pre><code class="language-r">ipca(ano_inicial = 2024, ano_final = 2024, mes_inicial = 1, mes_final = 12, capital = &quot;all&quot;, plot = T)
-</code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
-<p>Em um exemplo complementar, caso o usuário deseje acessar os dados para a região metropolitana de Recife-PE, basta substituir <em>capital = &ldquo;all&rdquo;</em> por <em>capital = &ldquo;2601&rdquo;</em> na função, isto é:</p>
-<pre><code class="language-r">ipca(ano_inicial = 2024, ano_final = 2024, mes_inicial = 1, mes_final = 12, capital = &quot;2601&quot;, plot = T)
-</code></pre>
-<img src="https://nipe-urca.netlify.app/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
-
-
-
-
-<h2 id="considerações-finais">
-  <a class="Heading-link u-clickable" href="/2025/01/02/acessando-as-varia%C3%A7%C3%B5es-mensais-do-ipca-em-r/#considera%c3%a7%c3%b5es-finais">Considerações finais</a>
-</h2>
-<p>A tarefa proposta nesse post pode ser executada de diversas maneiras. A função anteriormente apresentada demonstra apenas um dos vários modos de acessar os resultados do IPCA diretamente da plataforma SIDRA usando a linguagem R. A função possui alguns detalhes que a tornam pouco eficiente em termos de tempo de execução e de escrita do código. Esses detalhes, contudo, podem ser aperfeiçoados e melhorados pelos usuários. Por fim, espera-se que haja utilidade e usuabilidade das informações aqui repassadas no cotidiano dos colegas que acessa a página do NIPE.</p>
-<p style="font-family: times, serif; font-size:8pt; font-style:italic">
-Nota: Eventuais dúvidas podem ser sanadas por meio de um contato via e-mail com o <a href = "helsongsouza.netlify.app"> Prof. Dr. Helson Gomes </a> atravéz do endereço eletrônico helson.gomes@urca.br
-</p>
 
           
         

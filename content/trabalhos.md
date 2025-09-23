@@ -67,6 +67,9 @@ title: Produção científica do NIPE
           case 'periodicos':
             resultText = `<hr>
             <h1>2025</h1> 
+            <p> <a href="https://doi.org/10.1017/S1355770X25000063"> Testing Kuznets’ environmental hypothesis for the Legal Amazon: a nonlinear approach</a>.
+            Publicado na <a href = https://www.cambridge.org/core/journals/environment-and-development-economics> Environment and Development Economics</a>. Autoria do Prof. Helson Gomes de Souza e coautoria do Dr. Gerrio Barbosa (Associação Bem Comum).
+            </p>
             <p> <a href="https://www.revistas.usp.br/ecoa/article/view/183129/213527"> Desigualdade de oportunidade educacional e o gap de desempenho entre escolas privadas e públicas</a>.
             Publicado na <a href = https://www.revistas.usp.br/ecoa> Revista de Economia Aplicada</a>. Autoria do Prof. Diogo Sobreira e coautoria do Prof. Jair Araujo (PPGER/UFC).
             </p>
@@ -89,6 +92,8 @@ title: Produção científica do NIPE
             break;
             case 'anais':
               resultText = `
+              <hr> <h1> 2025</h1> 
+              <p> (i) <a href = https://observatorio.fies.org.br/inscricao/anais>Pass-through cambial e inflação brasileira: uma abordagem via funções impulso-resposta em modelos VAR. </a>Em Anais do VI Encontro de Economia Aplicada de Sergipe. Autoria do discente Anderson Oliveira e coautoria dos professores Wellington Justos (PPGERU/URCA) e Áydano Ribeiro Leite (NIPE/URCA).</p>
               <hr> <h1> 2024</h1> 
               <p> (i) <a href = https://anpec.org.br/nordeste/2024/submissao/arquivos_identificados/047-f5025d3d152b6106179721f646cdc017.pdf>Mudanças na Política de Acesso ao Capital Público no Estado do Ceará: Efeitos Sobre o Crescimento Econômico e o Bem-Estar Social. </a>Em Anais do XXIX Encontro Regional de Economia. Autoria do Prof. Helson Gomes.</p>
               <p>(ii) <a href = https://anpec.org.br/nordeste/2024/submissao/arquivos_identificados/031-7ec509291211cee98d5634d76dde3822.pdf > Como as Mudanças nos Padrões Climáticos Incidem Sobre a Produtividade Agrícola? Uma Análise Para o Estado do Ceará.  </a> Em Anais do XXIX Encontro Regional de Economia. Coautoria do Prof. Helson Gomes.</p>
@@ -106,10 +111,8 @@ title: Produção científica do NIPE
             case 'aceitos':
               resultText = `
               <hr>
-              <p>(i) Testing Kuznets' environmental hypothesis for the Legal Amazon: a nonlinear approach. Environment and Development Economics, 2025. Autoria do Prof. Helson Gomes.</p>
-              <p>(ii) . Revista Econômica do Nordeste, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(iii) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
-              <p>(iv) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
+              <p>(i) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
+              <p>(ii) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>
               `;
             break;
