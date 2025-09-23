@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de participação em evento](/2025/09/22/alerta-de-participação-em-evento/)
+
 # [Alerta de publicação em periódico](/2025/09/22/alerta-de-publicação-em-periódico/)
 
 # [Alerta de publicação em periódico](/2025/08/08/alerta-de-publicação-em-periódico/)

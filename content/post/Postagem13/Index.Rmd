@@ -1,0 +1,16 @@
+---
+title: "Alerta de participação em evento"
+#author: "Prof. Dr. Helson Gomes"
+date: "2025-09-22"
+output: html_document
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+
+O discente Gabriel Antony, atualmente no Programa de Pós-Graduação em Economia da UFPB, representará o NIPE no 53º Encontro Nacional de Economia da ANPEC como apresentador do trabalho intitulado "*Efeitos das Casas de Jogos de Azar Sobre a Criminalidade no Estado de São Paulo*. O encontro ocorrerá entre os dias 16 e 19 de dezembro de 2025 no INSPER, na cidade do São Paulo/SP. Clique [aqui](https://www.anpec.org.br/encontro/2025/submissao/files_I/i10-98d2b29c18dc7601f57ee81eb01a56bc.pdf) e acesse o manuscrito na íntegra.
+
+</hr>

@@ -93,7 +93,8 @@ title: Produção científica do NIPE
             case 'anais':
               resultText = `
               <hr> <h1> 2025</h1> 
-              <p> (i) <a href = https://observatorio.fies.org.br/inscricao/anais>Pass-through cambial e inflação brasileira: uma abordagem via funções impulso-resposta em modelos VAR. </a>Em Anais do VI Encontro de Economia Aplicada de Sergipe. Autoria do discente Anderson Oliveira e coautoria dos professores Wellington Justos (PPGERU/URCA) e Áydano Ribeiro Leite (NIPE/URCA).</p>
+              <p>(i) <a href = "https://www.anpec.org.br/encontro/2025/submissao/files_I/i10-98d2b29c18dc7601f57ee81eb01a56bc.pdf"> Efeitos das Casas de Jogos de Azar Sobre a Criminalidade no Estado de São Paulo.</a> Em Anais do 53º Encontro Nacional de Economia da ANPEC. Autoria do discente Gabriel Antony (PPGE/UFPB). </p>
+              <p> (ii) <a href = https://observatorio.fies.org.br/inscricao/anais>Pass-through cambial e inflação brasileira: uma abordagem via funções impulso-resposta em modelos VAR. </a>Em Anais do VI Encontro de Economia Aplicada de Sergipe. Autoria do discente Anderson Oliveira e coautoria dos professores Wellington Justos (PPGERU/URCA) e Áydano Ribeiro Leite (NIPE/URCA).</p>
               <hr> <h1> 2024</h1> 
               <p> (i) <a href = https://anpec.org.br/nordeste/2024/submissao/arquivos_identificados/047-f5025d3d152b6106179721f646cdc017.pdf>Mudanças na Política de Acesso ao Capital Público no Estado do Ceará: Efeitos Sobre o Crescimento Econômico e o Bem-Estar Social. </a>Em Anais do XXIX Encontro Regional de Economia. Autoria do Prof. Helson Gomes.</p>
               <p>(ii) <a href = https://anpec.org.br/nordeste/2024/submissao/arquivos_identificados/031-7ec509291211cee98d5634d76dde3822.pdf > Como as Mudanças nos Padrões Climáticos Incidem Sobre a Produtividade Agrícola? Uma Análise Para o Estado do Ceará.  </a> Em Anais do XXIX Encontro Regional de Economia. Coautoria do Prof. Helson Gomes.</p>
