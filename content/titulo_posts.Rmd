@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de seminário de pesquisa](/2025/09/24/alerta-de-seminários-de-pesquisa/)
+
 # [Alerta de participação em evento](/2025/09/22/alerta-de-participação-em-evento/)
 
 # [Alerta de publicação em periódico](/2025/09/22/alerta-de-publicação-em-periódico/)
@@ -26,5 +28,3 @@ buildDrafts: true
 # [Alerta de publicação em periódico](/2025/05/06/alerta-de-publicação-em-periódico/)
 
 # [Acessando as variações mensais do IPCA em R](/2025/01/02/acessando-as-variações-mensais-do-ipca-em-r/)
-
-# [Explorando o mercado de capitais em R](/2025/01/01/explorando-o-mercado-de-capitais-em-r/)
