@@ -1,7 +1,7 @@
 ---
 title: "Alerta de seminários de Pesquisa"
 #author: "Prof. Dr. Helson Gomes"
-date: "2025-10-08"
+date: "2025-10-09"
 output: html_document
 draft: false
 ---
