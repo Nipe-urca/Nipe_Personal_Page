@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de seminário de pesquisa](/2025/10/30/alerta-de-seminários-de-pesquisa/)
+
 # [Alerta de seminário de pesquisa](/2025/10/09/alerta-de-seminários-de-pesquisa/)
 
 # [Alerta de seminário de pesquisa](/2025/09/24/alerta-de-seminários-de-pesquisa/)
