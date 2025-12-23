@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/2025/10/30/alerta-de-semin%C3%A1rios-de-pesquisa/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/2025/12/22/discente-do-nipe-%C3%A9-aprovado-em-programa-de-p%C3%B3s-gradua%C3%A7%C3%A3o-da-ufv/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/2025/10/30/alerta-de-semin%C3%A1rios-de-pesquisa/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/2025/10/09/alerta-de-semin%C3%A1rios-de-pesquisa/</loc>
