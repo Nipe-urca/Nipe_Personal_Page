@@ -1,0 +1,760 @@
+<html>
+
+<!--- Dados de entrada -->
+
+<head>
+<title>Painel de monitoramento de preços agrícolas do Cariri</title>
+<!-- Conectando com o css -->
+<link rel="stylesheet" href="layout.css" />
+<!-- biblioteca de icnoes html-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--Cabeçalho-->
+
+<header>
+<table>
+<tr>
+<th><img src = https://nipe-urca.netlify.app/images/logo.png style = "width:2cm; height:2cm; border-radius: 50%;"></th>
+<th><div class = "titulo">
+<h1> Painel de monitoramento de preços agrícolas do Cariri</h1>
+</div>
+<th><img src = "https://foprop.org.br/wp-content/uploads/jet-engine-forms/guest/2023/03/URCA.jpg" style = "width:3.5cm; height:2cm;border-radius:50%;"</th>
+</tr>
+</table>
+
+</header>
+
+<!-- Barra de navegação -->
+
+<div class = "barra_navegacao">
+<div class = "itens">
+<a href="Principal.html"> <i class="fa fa-fw fa-home"></i>Início</a>
+<a href = "Relatorios.html"> <i class="fa fa-file-text"></i> Relatórios</a>
+<a href = "Indice_precos.html"> <i class="fa fa-bar-chart"></i> Índices de preços </a>
+<a href = "Previsoes.html"> <i class="fa fa-line-chart"></i> Previsões </a>
+</div>
+</div>
+
+
+<!-- Botão de seleção de elementos -->
+
+<table class = "tabela-botoes">
+<tr>
+<th>
+<!-- Selecionando a categoria de produto -->
+<div class = "selectcategoria" id = "selectcategoria">
+<select name = "categoria" id = "categoria" class = "categoria"> 
+<option value = ""> Selecione uma categoria</option>
+<option value = "frutas">Frutas </option> 
+<option value = "hortalicas"> Hortaliças </option>
+</select>
+</div>
+</th>
+<th>
+<!-- Selecionando o tipo de produto -->
+<div class = "produtos">
+<select name = "produtos" id = "produtos" >
+<option value = "">Selecione um produto... </option>
+</select>
+</div>
+</th>
+</tr>
+</table>
+
+
+
+
+
+
+<script>
+    const categoria_escolhida = document.getElementById("categoria"); 
+    categoria_escolhida.addEventListener("change", function() {
+  const categoria = categoria_escolhida.value;
+  let produtos = [];
+
+  if (categoria === "frutas") {
+    produtos = [
+    {"id":1,"nome":"Abacate grande (tipo Betânia)", "nomeSemAcento":"Abacate grande (tipo Betania)"},
+    {"id":2,"nome":"Abacate grande (tipo Primavera)", "nomeSemAcento":"Abacate grande (tipo Primavera)"},
+    {"id":3,"nome":"Abacaxi pérola grande", "nomeSemAcento":"Abacaxi perola grande"},
+    {"id":4,"nome":"Abacaxi pérola médio", "nomeSemAcento":"Abacaxi perola medio"},
+    {"id":5,"nome":"Abacaxi pérola pequeno", "nomeSemAcento":"Abacaxi perola pequeno"},
+    {"id":6,"nome":"Ameixa", "nomeSemAcento":"Ameixa"},
+    {"id":7,"nome":"Acerola", "nomeSemAcento":"Acerola"},
+    {"id":8,"nome":"Banana casca verde (ou Caxiana)", "nomeSemAcento":"Banana casca verde (ou Caxiana)"},
+    {"id":9,"nome":"Banana prata de primeira", "nomeSemAcento":"Banana prata de primeira"},
+    {"id":10,"nome":"Banana prata de segunda", "nomeSemAcento":"Banana prata de segunda"},
+    {"id":11,"nome":"Banana pacovan da terra de primeira", "nomeSemAcento":"Banana pacovan da terra de primeira"},
+    {"id":12,"nome":"Caju", "nomeSemAcento":"Caju"},
+    {"id":13,"nome":"Goiaba verde", "nomeSemAcento":"Goiaba verde"},
+    {"id":14,"nome":"Goiaba madura", "nomeSemAcento":"Goiaba madura"},
+    {"id":15,"nome":"Jaca grande", "nomeSemAcento":"Jaca grande"},
+    {"id":16,"nome":"Jaca média", "nomeSemAcento":"Jaca media"},
+    {"id":17,"nome":"Jaca pequena", "nomeSemAcento":"Jaca pequena"},
+    {"id":18,"nome":"Kiwi", "nomeSemAcento":"Kiwi"},
+    {"id":19,"nome":"Kiwi golde", "nomeSemAcento":"Kiwi golde"},
+    {"id":20,"nome":"Laranja lima", "nomeSemAcento":"Laranja lima"},
+    {"id":21,"nome":"Limão tayti grande", "nomeSemAcento":"Limao tayti grande"},
+    {"id":22,"nome":"Maçã nacional granel", "nomeSemAcento":"Maca nacional granel"},
+    {"id":23,"nome":"Maçã nacional granel elpisia", "nomeSemAcento":"Maca nacional granel elpisia"},
+    {"id":24,"nome":"Maçã nacional granel fiesta", "nomeSemAcento":"Maca nacional granel fiesta"},
+    {"id":25,"nome":"Maçã verde", "nomeSemAcento":"Maca verde"},
+    {"id":26,"nome":"Mamão formosa de primeira", "nomeSemAcento":"Mamao formosa de primeira"},
+    {"id":27,"nome":"Mamão formosa de segunda", "nomeSemAcento":"Mamao formosa de segunda"},
+    {"id":28,"nome":"Mamão Hawai", "nomeSemAcento":"Mamao Hawai"},
+    {"id":29,"nome":"Manga rosa grande", "nomeSemAcento":"Manga rosa grande"},
+    {"id":30,"nome":"Manga rosa pequena", "nomeSemAcento":"Manga rosa pequena"},
+    {"id":31,"nome":"Manga tommy otkins de primeira", "nomeSemAcento":"Manga tommy otkins de primeira"},
+    {"id":32,"nome":"Manga tommy otkins de segunda", "nomeSemAcento":"Manga tommy otkins de segunda"}
+    ];
+  } else if (categoria === "hortalicas") {
+    produtos = [
+    {"id":33,"nome":"Abobrinha italiana", "nomeSemAcento":"Abobrinha italiana"},
+    {"id":34,"nome":"Acelga", "nomeSemAcento":"Acelga"},
+    {"id":35,"nome":"Batata inglesa lisa de primeira", "nomeSemAcento":"Batata inglesa lisa de primeira"},
+    {"id":36,"nome":"Batata inglesa lisa de segunda", "nomeSemAcento":"Batata inglesa lisa de segunda"},
+    {"id":37,"nome":"Batata doce branca", "nomeSemAcento":"Batata doce branca"},
+    {"id":38,"nome":"Batata doce roxa de primeira", "nomeSemAcento":"Batata doce roxa de primeira"},
+    {"id":39,"nome":"Batata doce", "nomeSemAcento":"Batata doce"},
+    {"id":40,"nome":"Batata doce roxa (tipo italiana)", "nomeSemAcento":"Batata doce roxa (tipo italiana)"},
+    {"id":41,"nome":"Batata doce roxa (tipo sangue de boi)", "nomeSemAcento":"Batata doce roxa (tipo sangue de boi)"},
+    {"id":42,"nome":"Berinjela", "nomeSemAcento":"Berinjela"},
+    {"id":43,"nome":"Beterraba extra de primeira", "nomeSemAcento":"Beterraba extra de primeira"},
+    {"id":44,"nome":"Beterraba especial de segunda", "nomeSemAcento":"Beterraba especial de segunda"},
+    {"id":45,"nome":"Brócolis", "nomeSemAcento":"Brocolis"},
+    {"id":46,"nome":"Cebola pera tipo 1", "nomeSemAcento":"Cebola pera tipo 1"},
+    {"id":47,"nome":"Cebola pera tipo 2", "nomeSemAcento":"Cebola pera tipo 2"},
+    {"id":48,"nome":"Cebola pera tipo 3", "nomeSemAcento":"Cebola pera tipo 3"},
+    {"id":49,"nome":"Cebola roxa tipo 1", "nomeSemAcento":"Cebola roxa tipo 1"},
+    {"id":50,"nome":"Cebola roxa tipo 2", "nomeSemAcento":"Cebola roxa tipo 2"},
+    {"id":51,"nome":"Cebola roxa tipo 3", "nomeSemAcento":"Cebola roxa tipo 3"},
+    {"id":52,"nome":"Cebolinha", "nomeSemAcento":"Cebolinha"},
+    {"id":53,"nome":"Coentro", "nomeSemAcento":"Coentro"},
+    {"id":54,"nome":"Cenoura extra de primeira", "nomeSemAcento":"Cenoura extra de primeira"},
+    {"id":55,"nome":"Cenoura especial de segunda", "nomeSemAcento":"Cenoura especial de segunda"},
+    {"id":56,"nome":"Chuchu de primeira", "nomeSemAcento":"Chuchu de primeira"},
+    {"id":57,"nome":"Chuchu de segunda", "nomeSemAcento":"Chuchu de segunda"},
+    {"id":58,"nome":"Couve flor prêmio", "nomeSemAcento":"Couve flor premio"},
+    {"id":59,"nome":"Couve flor", "nomeSemAcento":"Couve flor"},
+    {"id":60,"nome":"Espinafre", "nomeSemAcento":"Espinafre"},
+    {"id":61,"nome":"Hortelã", "nomeSemAcento":"Hortela"},
+    {"id":62,"nome":"Inhame", "nomeSemAcento":"Inhame"},
+    {"id":63,"nome":"Jiló", "nomeSemAcento":"Jilo"},
+    {"id":64,"nome":"Manjericão", "nomeSemAcento":"Manjericao"},
+    {"id":65,"nome":"Maxixe", "nomeSemAcento":"Maxixe"},
+    {"id":66,"nome":"Milho verde", "nomeSemAcento":"Milho verde"},
+    {"id":67,"nome":"Pepino", "nomeSemAcento":"Pepino"},
+    {"id":68,"nome":"Pimenta de cheiro", "nomeSemAcento":"Pimenta de cheiro"},
+    {"id":69,"nome":"Pimentão vermelho", "nomeSemAcento":"Pimentao vermelho"},
+    {"id":70,"nome":"Pimentão amarelo", "nomeSemAcento":"Pimentao amarelo"}
+    ];
+  }
+
+  const select = document.getElementById("produtos");
+  select.innerHTML = '<option value="">Selecione um produto...</option>'; // limpa opções anteriores
+  
+  produtos.forEach(produto => {
+    const option = document.createElement("option");
+    option.value = produto.nomeSemAcento;   // usado para lógica (igual ao JSON)
+    option.textContent = produto.nome;      // exibido para o usuário com acento
+    select.appendChild(option);
+  });
+
+
+
+  
+  
+});
+
+
+    
+    
+  </script>
+
+<div class = "linha">
+<hr>
+</div>
+
+
+
+
+<div class = "relatorio">
+<h1> Trajetória temporal dos preços </h1>
+</div>
+
+<div id="infoProduto"></div>
+
+<div class="loader" id = "loader"></div>
+
+<script>
+
+let textADD;
+document.getElementById("produtos").addEventListener("change", function(){
+
+
+if(!textADD){
+  textADD = document.createElement("p");
+  textADD.id = "loader";
+  textADD.textContent = ``;
+  document.getElementById("loader").replaceWith(textADD);
+}else{
+  textADD.textContent = ``;
+}
+
+ 
+
+
+});
+
+</script>
+
+
+<script src="dados.js"></script>
+
+
+<script>
+function normalizar(texto) {
+  return texto
+    .normalize("NFD")                // separa acentos
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .trim()
+    .toLowerCase();                  // força minúsculas
+}
+
+document.getElementById("produtos").addEventListener("change", function () {
+  const selecionadoComAcento = this.options[this.selectedIndex].text.trim(); 
+
+
+  const selecionado = this.value; // sem acento
+  const dadosFiltrados = dados.filter(
+    item => normalizar(item.tipo_produto) === normalizar(selecionado)
+  );
+  
+  if (dadosFiltrados.length > 0) {
+    const produtoInfo = dadosFiltrados[0]; // pega o primeiro objeto
+
+    // Monta o texto
+    const infoHTML = `
+      <table class = "caracProdutos" style='border: 1px #ff0000 dashed; width: 80%' align='center' border='1'>
+    <tbody>
+        <tr>
+            <td>Produto: ${selecionadoComAcento}</td>
+            <td>Unidade de medida: ${produtoInfo.und_medida}</td>
+            <td>Quantidade: ${produtoInfo.qt_medida}</td>
+        </tr>
+    </tbody>
+</table>
+    `;
+
+    // Insere no div abaixo do título
+    document.getElementById("infoProduto").innerHTML = infoHTML;
+  }
+
+
+
+});
+
+
+</script>
+
+
+<div class="indicadores-preco" id="indicadores-preco">
+  <div class="item-indicador" id="preco-atual">Preço atual: R$ --</div>
+  <div class="item-indicador" id="preco-anterior">Preço anterior: R$ --</div>
+  <div class="item-indicador" id="variacao">Variação: --%</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<canvas id="graficoProduto" width="600" height="250"></canvas>
+<!--Gráfico de variações diárias-->
+<canvas id="graficoVariacaoDiaria" width="600" height="250"></canvas> 
+
+<div class="nota-observacao">
+  <span>Nota: Nas datas onde não existem barras, a variação em relação à data anterior foi nula.</span>
+</div>
+
+<canvas id="graficoDesvios" width="600" height="250"></canvas>
+<canvas id="graficoDesviosExtremos" width="600" height="250"></canvas>
+
+
+
+<script>
+document.getElementById("produtos").addEventListener("change", function () {
+  const selecionado = this.value; // sem acento
+  const dadosFiltrados = dados.filter(
+    item => normalizar(item.tipo_produto) === normalizar(selecionado)
+  );
+  
+  
+
+  // Atualiza ou cria o texto informativo
+  let novoTexto = document.getElementById("info-produto");
+  if (!novoTexto) {
+    novoTexto = document.createElement("p");
+    novoTexto.id = "info-produto";
+    document.querySelector(".relatorio").appendChild(novoTexto);
+  }
+
+  if (dadosFiltrados.length > 0) {
+    const produto = dadosFiltrados[0];
+    novoTexto.textContent = ``;
+  } else {
+    novoTexto.textContent = `Informações não encontradas para o produto selecionado.`;
+  }
+
+  // Prepara os dados para o gráfico
+  const dias = dadosFiltrados.map(item => item.dia);
+  const medias = dadosFiltrados.map(item => item.media);
+
+  // Cria ou atualiza o gráfico
+  const ctx = document.getElementById("graficoProduto").getContext("2d");
+
+  // Destroi gráfico anterior se existir
+  if (window.graficoInstancia) {
+    window.graficoInstancia.destroy();
+  }
+
+  // Calcula os limites com folga
+const minY = Math.min(...medias);
+const maxY = Math.max(...medias);
+const margem = (maxY - minY) * 0.1 || 1; // 10% de margem ou 1 se os valores forem iguais
+
+
+
+
+// Calcula a média móvel de 7 períodos
+function calcularMediaMovel(data, periodo) {
+  const resultado = [];
+  for (let i = 0; i < data.length; i++) {
+    if (i < periodo - 1) {
+      resultado.push(null); // Insere null para manter o alinhamento
+    } else {
+      const soma = data.slice(i - periodo + 1, i + 1).reduce((acc, val) => acc + val, 0);
+      resultado.push(soma / periodo);
+    }
+  }
+  return resultado;
+}
+
+if (dadosFiltrados.length >= 2) {
+  const precoAtual = dadosFiltrados[dadosFiltrados.length - 1].media;
+  const precoAnterior = dadosFiltrados[dadosFiltrados.length - 2].media;
+  const variacao = ((precoAtual - precoAnterior) / precoAnterior) * 100;
+
+  document.getElementById("preco-atual").textContent = `Preço atual: R$ ${precoAtual.toFixed(2)}`;
+  document.getElementById("preco-anterior").textContent = `Preço anterior: R$ ${precoAnterior.toFixed(2)}`;
+  document.getElementById("variacao").textContent = `Variação: ${variacao.toFixed(2)}%`;
+} else {
+  document.getElementById("preco-atual").textContent = `Preço atual: --`;
+  document.getElementById("preco-anterior").textContent = `Preço anterior: --`;
+  document.getElementById("variacao").textContent = `Variação: --`;
+}
+
+// Dentro do listener "change"
+const mediasMovel = calcularMediaMovel(medias, 7);
+
+
+
+// Elementos necessários para o gráfico de variações diárias
+//-----------------------------------------------------------
+// Calcula a variação percentual diária
+function calcularVariacaoDiaria(medias) {
+  const variacoes = [];
+  for (let i = 0; i < medias.length; i++) {
+    if (i === 0) {
+      variacoes.push(null); // Sem variação no primeiro dia
+    } else {
+      const anterior = medias[i - 1];
+      const atual = medias[i];
+      const variacao = ((atual - anterior) / anterior) * 100;
+      variacoes.push(variacao.toFixed(2));
+    }
+  }
+  return variacoes;
+}
+
+const variacoesDiarias = calcularVariacaoDiaria(medias);
+//-----------------------------------------------------------
+
+
+// Elementos necessários para o gráfico de desvios
+//-----------------------------------------------------------
+// Média histórica
+const mediaHistorica = medias.reduce((acc, val) => acc + val, 0) / medias.length;
+
+// Desvio em relação à média histórica
+const desviosHistorico = medias.map(valor => (valor - mediaHistorica).toFixed(2));
+
+// Desvio em relação à média móvel de 7 dias
+const desviosMovel = medias.map((valor, i) => {
+  const mediaMovel = mediasMovel[i];
+  return mediaMovel !== null ? (valor - mediaMovel).toFixed(2) : null;
+});
+//-----------------------------------------------------------
+
+
+
+// Elementos necessários para o gráfico de desvios para os extremos
+//-----------------------------------------------------------
+// Mínima e máxima histórica
+const minHistorica = Math.min(...medias);
+const maxHistorica = Math.max(...medias);
+
+// Desvios em relação à mínima e máxima histórica
+const desviosMinHistorica = medias.map(valor => (valor - minHistorica).toFixed(2));
+const desviosMaxHistorica = medias.map(valor => (valor - maxHistorica).toFixed(2));
+
+// Desvios em relação à mínima e máxima dos últimos 30 dias
+const desviosMin30 = [];
+const desviosMax30 = [];
+
+for (let i = 0; i < medias.length; i++) {
+  const inicio = Math.max(0, i - 29);
+  const janela = medias.slice(inicio, i + 1);
+  const min30 = Math.min(...janela);
+  const max30 = Math.max(...janela);
+
+  desviosMin30.push((medias[i] - min30).toFixed(2));
+  desviosMax30.push((medias[i] - max30).toFixed(2));
+}
+//-----------------------------------------------------------
+
+
+// Destroi gráfico anterior se existir
+if (window.graficoDesviosExtremosInstancia) {
+  window.graficoDesviosExtremosInstancia.destroy();
+}
+
+const ctxDesviosExtremos = document.getElementById("graficoDesviosExtremos").getContext("2d");
+
+window.graficoDesviosExtremosInstancia = new Chart(ctxDesviosExtremos, {
+  type: "line",
+  data: {
+    labels: dias,
+    datasets: [
+      {
+        label: "Desvio vs Mínima Histórica",
+        data: desviosMinHistorica,
+        borderColor: "rgba(255, 99, 132, 1)",
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        fill: false,
+        tension: 0.3
+      },
+      {
+        label: "Desvio vs Máxima Histórica",
+        data: desviosMaxHistorica,
+        borderColor: "rgba(54, 162, 235, 1)",
+        backgroundColor: "rgba(54, 162, 235, 0.2)",
+        fill: false,
+        borderDash: [4, 4],
+        tension: 0.3
+      },
+      {
+        label: "Desvio vs Máxima (últimos 30 dias)",
+        data: desviosMax30,
+        borderColor: "rgba(255, 206, 86, 1)",
+        backgroundColor: "rgba(255, 206, 86, 0.2)",
+        fill: false,
+        tension: 0.3
+      },
+      {
+        label: "Desvio vs Mínima (últimos 30 dias)",
+        data: desviosMin30,
+        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        fill: false,
+        borderDash: [2, 2],
+        tension: 0.3
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: `Desvios para os extremos da série - ${selecionado.toLowerCase()}`,
+        font: {
+          size: 16
+        }
+      }
+    },
+    scales: {
+      y: {
+        title: {
+          display: true,
+          text: "Desvio (R$)"
+        },
+        beginAtZero: false
+      },
+      x: {
+        title: {
+          display: true,
+          text: "Dia"
+        }
+      }
+    }
+  }
+});
+
+
+// Destroi gráfico anterior de variação diária se existir
+if (window.graficoVariacaoDiariaInstancia) {
+  window.graficoVariacaoDiariaInstancia.destroy();
+}
+
+const ctxVarDia = document.getElementById("graficoVariacaoDiaria").getContext("2d");
+
+window.graficoVariacaoDiariaInstancia = new Chart(ctxVarDia, {
+  type: "bar",
+  data: {
+    labels: dias,
+    datasets: [{
+      label: "Variação diária (%)",
+      data: variacoesDiarias,
+      backgroundColor: variacoesDiarias.map(v => v >= 0 ? "rgba(75, 192, 192, 0.6)" : "rgba(255, 99, 132, 0.6)"),
+      borderColor: variacoesDiarias.map(v => v >= 0 ? "rgba(75, 192, 192, 1)" : "rgba(255, 99, 132, 1)"),
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: `Variação percentual - ${selecionado.toLowerCase()}`,
+        font: {
+          size: 16
+        }
+      }
+    },
+    datalabels: {
+        display: true,
+        align: 'end',
+        anchor: 'end',
+        rotation: -90,
+        formatter: function(value) {
+          return value !== null ? `${parseFloat(value).toFixed(2)}%` : '';
+        },
+        font: {
+          size: 10,
+          weight: 'bold'
+        },
+        color: '#333'
+      },
+    scales: {
+      y: {
+        title: {
+          display: true,
+          text: "Variação (%)"
+        },
+        beginAtZero: true
+      },
+      x: {
+        title: {
+          display: true,
+          text: "Dia"
+        }
+      }
+    }
+  }
+});
+
+// Destroi gráfico anterior se existir
+if (window.graficoDesviosInstancia) {
+  window.graficoDesviosInstancia.destroy();
+}
+
+const ctxDesvio = document.getElementById("graficoDesvios").getContext("2d");
+
+window.graficoDesviosInstancia = new Chart(ctxDesvio, {
+  type: "line",
+  data: {
+    labels: dias,
+    datasets: [
+      {
+        label: "Desvio para a média histórica",
+        data: desviosHistorico,
+        borderColor: "rgba(255, 159, 64, 1)",
+        backgroundColor: "rgba(255, 159, 64, 0.2)",
+        fill: false,
+        tension: 0.3
+      },
+      {
+        label: "Desvio para a média móvel de 7 dias",
+        data: desviosMovel,
+        borderColor: "rgba(153, 102, 255, 1)",
+        backgroundColor: "rgba(153, 102, 255, 0.2)",
+        fill: false,
+        borderDash: [4, 4],
+        tension: 0.3
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: `Desvios do preço para as médias - ${selecionado.toLowerCase()}`,
+        font: {
+          size: 16
+        }
+      }
+    },
+    scales: {
+      y: {
+        title: {
+          display: true,
+          text: "Desvio (R$)"
+        },
+        beginAtZero: false
+      },
+      x: {
+        title: {
+          display: true,
+          text: "Dia"
+        }
+      }
+    }
+  }
+});
+
+
+window.graficoInstancia = new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: dias,
+    datasets: [
+      {
+        label: `Preço médio`,
+        data: medias,
+        borderColor: "rgba(255, 99, 132, 1)",
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        fill: true,
+        tension: 0.3
+      },
+      {
+        label: `Média móvel (7 dias)`,
+        data: mediasMovel,
+        borderColor: "rgba(54, 162, 235, 1)",
+        backgroundColor: "rgba(54, 162, 235, 0.2)",
+        fill: false,
+        borderDash: [5, 5],
+        tension: 0.3
+      }
+    ]
+  },
+  options: {
+  responsive: true,
+  plugins: {
+    title: {
+      display: true,
+      text: `Evolução do preço médio no Cariri Cearense - ${selecionado.toLowerCase()}`,
+      font: {
+        size: 18,
+        weight: 'bold'
+      },
+      padding: {
+        top: 10,
+        bottom: 20
+      }
+    },
+    subtitle: {
+      display: true,
+      text: 'Fonte: CEASA Cariri',
+       position: 'bottom',
+      font: {
+        size: 12,
+        style: 'italic'
+      },
+      padding: {
+        bottom: 10
+      }
+    }
+  },
+  scales: {
+    x: {
+      title: {
+        display: true,
+        text: "Dia"
+      }
+    },
+    y: {
+      title: {
+        display: true,
+        text: "Preço médio (R$)"
+      },
+      beginAtZero: false,
+      min: minY - margem,
+      max: maxY + margem
+    }
+  }
+}
+});
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+<!-- Rodapé -->
+
+<hr>
+
+<footer>
+<div class = "tabela">
+<table>
+<tr> <th>
+<div class = "titulo1_rodape"><i class="fa fa-users"></i> Organização geral </div></th> 
+<th><div class = "titulo1_rodape"> <i class="fa fa-envelope"></i> Contatos </div></th><th><div class = "titulo1_rodape"> <i class="fa fa-camera"></i> Mídias </div></th>
+</tr>
+<tr> 
+<td><a href = "nipe-urca.netlify.app">Núcleo Integrado de Pesquisa Econômica</a></td>
+<td> <i class="fa fa-envelope-open-o" aria-hidden="true"></i>  nipe.urca@gmail.com </td><td> <a href = "https://www.instagram.com/nipe_urca/?igsh=MWFmaGticnJ3ejVnZg%3D%3D"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>  </td>
+</tr>
+<tr> 
+<td><a href = "urca.br">Universidade Regional do Cariri</a></td>
+<td><i class="fa fa-envelope-open-o" aria-hidden="true"></i> urca@urca.br</td><td> <a href = "https://www.instagram.com/urcaoficial_/" > <i class="fa fa-instagram" aria-hidden="true"></i> </a>  <a href = "https://www.linkedin.com/school/universidade-regional-do-cariri/?originalSubdomain=br"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> <a href = "https://www.facebook.com/urcaceara/?locale=pt_BR"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </td>
+</tr>
+<tr> 
+<td><a href = "urca.br">Departameto de Economia</a></td>
+<td><i class="fa fa-envelope-open-o" aria-hidden="true"></i> dpto.economia@urca.br</td><td></td>
+</tr>
+<tr> 
+<td> <i class="fa fa-map-marker" aria-hidden="true"></i> <a href = "https://maps.app.goo.gl/YB9VzPNda9BGQ8vE6">Rua Cel. Antonio Luiz, 1161, Pimenta, Carto-CE</a></td>
+<td></td><td></td>
+</tr>
+<tr> 
+<td> </td>
+<td><div class = "titulo1_rodape"> <i class="fa fa-user-circle-o"></i> Contribuições </div></td><td></td>
+</tr>
+<td> </td>
+<td> <a href = "https://maps.app.goo.gl/hVNz7dyrXMZT2MxX9">Ceasa Cariri</a> </td><td></td>
+</tr>
+</tr>
+<td> </td>
+<td> CEPEC - URCA</a> </td><td> <a href = "https://www.instagram.com/cepec.economiaurca/" > <i class="fa fa-instagram" aria-hidden="true"></i> </a> <a href = "linktr.ee/cepecurca"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </td>
+</tr>
+</table>
+</div>
+</footer>
+
+
+
+
+
+</html>

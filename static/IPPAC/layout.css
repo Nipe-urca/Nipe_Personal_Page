@@ -1,0 +1,232 @@
+header{
+  text-align: center;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 150px;
+}
+
+header .titulo{
+  color: #818181;
+  font-size: 18px;
+  font-family: Sans-Serif;
+  padding: 20px 0px 0px 0px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+
+logo_nipe{
+  margin-left: 2cm;
+  width: 3cm;
+  height: 3cm;
+}
+
+.barra_navegacao{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 120px;
+  font-size: 22px;
+  height: 2cm;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+.itens{
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  gap: 50px;
+}
+
+.barra_navegacao a{
+  padding: 8px 8px 8px 8px;
+  color: blue;
+  text-decoration: none;         /* remove sublinhado */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25); /* sombra suave */
+  transition: background-color 0.3s ease;
+  color: #818181;
+  display: block;
+  transition: 0.7s;
+  border-radius: 8px;
+}
+
+/* mudar a cor quando passar o mouse sobre o item da barra de navegação*/
+.barra_navegacao a:hover {
+  color: #f1f1f1;
+}
+
+body{
+  margin-top: 0px;
+  margin-left: 4cm;
+  margin-right: 4cm;
+  text-align: left;
+  /*background-color: #F5F5F5;*/
+  background-color: white;
+}
+
+body p{
+  font-size: 20px;
+  font-family: serif;
+  text-align: justify;
+}
+
+footer{
+  background-color: #F2EBE6;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-left: 1px solid cyan;
+  border-right: 1px solid cyan;
+  border-top: 1px solid cyan;
+  border-bottom: 1px solid cyan;
+}
+
+
+
+.tabela table {
+  width: 100%;
+  table-layout: fixed; /* força colunas com largura igual */
+  border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+  width: 33.33%;
+  padding: 10px;
+  text-align: left; /* ou center, se preferir */
+  vertical-align: top;
+}
+
+.tabela a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Garamond;
+  color: black;
+}
+
+.titulo1_rodape {
+  color: #735544;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Botão de selecionar os produtos na aba de relatorios*/
+.categoria{
+  margin-top: 60px;
+  margin-left: -30%;
+  align-content: center;
+  background-color: #f1f1f1;
+  font-family: Sans-Serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.produtos{
+  margin-top: 60px;
+  margin-left: 10%;
+  align-content: center;
+}
+
+.produtos select{
+  background-color: #f1f1f1;
+  font-family: Sans-Serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.linha{
+  padding: 40px 0px 30px 0px;
+}
+
+.relatorio{
+  margin-top: 20px;
+}
+
+
+/* Circulo loading */
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey border */
+  border-top: 4px solid #3498db; /* Blue border for the "spinning" part */
+  border-radius: 50%; /* Makes it a circle */
+  width: 100px;
+  height: 100px;
+  margin-left: 50%;
+  animation: spin 2s linear infinite; /* Apply the spin animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.relatorio{
+  margin-left: 25%;
+}
+
+
+.indicadores-preco {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.item-indicador {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.nota-observacao {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.nota-observacao span {
+  text-decoration: underline;
+  color: #555;
+}
+
+.tabprecos{
+  margin-top: 10%;
+  width: 100%;
+  border-spacing: 200px;
+}
+
+.tabelaPrecos{
+  border-spacing: 70px 10px;
+  font-size: 22px;
+  margin-bottom: 10%;
+}
+
+.alerta_previsao{
+  width: 100%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tituloIndice{
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
