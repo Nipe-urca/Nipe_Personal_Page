@@ -194,10 +194,24 @@ Nos painéis abaixo, o leitor pode consultar as variações periódicas e os val
       plugins: {
         title: {
           display: true,
-          text: "Variações temporais (IPPAC Frutas, IPPAC Hortaliças, IPPAC Geral)"
+          text: "Variações semanais em relação o boletim anterior (IPPAC Frutas, IPPAC Hortaliças, IPPAC Geral)"
         },
         legend: {
           position: "top"
+        },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
         }
       },
       scales: {
@@ -263,10 +277,24 @@ Nos painéis abaixo, o leitor pode consultar as variações periódicas e os val
       plugins: {
         title: {
           display: true,
-          text: "Acumulado desde o início da série (IPPAC Frutas, IPPAC Hortaliças, IPPAC Geral)"
+          text: "Acumulado semanal desde o início da série (IPPAC Frutas, IPPAC Hortaliças, IPPAC Geral)"
         },
         legend: {
           position: "top"
+        },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
         }
       },
       scales: {

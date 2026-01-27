@@ -545,7 +545,21 @@ window.graficoDesviosExtremosInstancia = new Chart(ctxDesviosExtremos, {
         font: {
           size: 16
         }
-      }
+      },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
+        }
     },
     scales: {
       y: {
@@ -594,7 +608,21 @@ window.graficoVariacaoDiariaInstancia = new Chart(ctxVarDia, {
         font: {
           size: 16
         }
-      }
+      },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
+        }
     },
     datalabels: {
         display: true,
@@ -668,7 +696,21 @@ window.graficoDesviosInstancia = new Chart(ctxDesvio, {
         font: {
           size: 16
         }
-      }
+      },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
+        }
     },
     scales: {
       y: {
@@ -730,7 +772,7 @@ window.graficoInstancia = new Chart(ctx, {
     },
     subtitle: {
       display: true,
-      text: 'Fonte: CEASA Cariri',
+      text: 'Fonte: CEASA-CE. Elaboração: NIPE',
        position: 'bottom',
       font: {
         size: 12,
