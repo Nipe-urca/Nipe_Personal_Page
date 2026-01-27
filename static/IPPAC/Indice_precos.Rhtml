@@ -29,7 +29,7 @@
 
 <div class = "barra_navegacao">
 <div class = "itens">
-<a href="Principal.html"> <i class="fa fa-fw fa-home"></i>Início</a>
+<a href="Home.html"> <i class="fa fa-fw fa-home"></i>Início</a>
 <a href = "Relatorios.html"> <i class="fa fa-file-text"></i> Relatórios</a>
 <a href = "Indice_precos.html"> <i class="fa fa-bar-chart"></i> Índices de preços </a>
 <a href = "Previsoes.html"> <i class="fa fa-line-chart"></i> Previsões </a>
@@ -64,10 +64,10 @@ Na comparação com os valores do início da coleta de informações junto a CEA
     <tbody>
       <!-- Aqui viriam as linhas de dados -->
       <tr>
-      <th> Variação para dezembro de 2025  </th> <th> 0.49% </th> <th> -3.93% </th> <th> -3.43% </th>
+      <th> Variação para dezembro de 2025  </th> <th> 0.49% </th> <th> 7.71% </th> <th> 4.05% </th>
       </tr>
       <tr>
-      <th> Acumulado desde o início da série </th> <th> -0.82% </th> <th> 5.17% </th> <th> 4.35% </th>
+      <th> Acumulado desde o início da série </th> <th> -4.56% </th> <th> -0.22% </th> <th> -2.39% </th>
       </tr>
     </tbody>
   </table>
@@ -81,42 +81,7 @@ Nos painéis abaixo, o leitor pode consultar as variações periódicas e os val
 
 
 
-<script>
-const indice = [
-{"dia":"2025-08-08","index_f":97.453,"index_h":91.594,"index":189.047,"deltaF":-2.547,"deltaH":-8.406,"acumF":-2.547,"acumH":-8.406,"deltaIndex":-10.953,"acumIndex":-10.953},
-{"dia":"2025-08-12","index_f":96.938,"index_h":91.571,"index":188.508,"deltaF":-0.529,"deltaH":-0.025,"acumF":-3.062,"acumH":-8.429,"deltaIndex":-0.554,"acumIndex":-11.492},
-{"dia":"2025-08-15","index_f":97.71,"index_h":90.656,"index":188.366,"deltaF":0.796,"deltaH":-0.999,"acumF":-2.29,"acumH":-9.344,"deltaIndex":-0.202,"acumIndex":-11.634},
-{"dia":"2025-08-19","index_f":97.936,"index_h":90.653,"index":188.589,"deltaF":0.232,"deltaH":-0.004,"acumF":-2.064,"acumH":-9.347,"deltaIndex":0.228,"acumIndex":-11.411},
-{"dia":"2025-08-22","index_f":98.192,"index_h":90.951,"index":189.143,"deltaF":0.261,"deltaH":0.328,"acumF":-1.808,"acumH":-9.049,"deltaIndex":0.589,"acumIndex":-10.857},
-{"dia":"2025-08-26","index_f":98.845,"index_h":89.624,"index":188.469,"deltaF":0.665,"deltaH":-1.459,"acumF":-1.155,"acumH":-10.376,"deltaIndex":-0.793,"acumIndex":-11.531},
-{"dia":"2025-08-29","index_f":98.71,"index_h":89.624,"index":188.333,"deltaF":-0.137,"deltaH":0.0,"acumF":-1.29,"acumH":-10.376,"deltaIndex":-0.137,"acumIndex":-11.667},
-{"dia":"2025-09-02","index_f":99.903,"index_h":90.302,"index":190.205,"deltaF":1.209,"deltaH":0.757,"acumF":-0.097,"acumH":-9.698,"deltaIndex":1.966,"acumIndex":-9.795},
-{"dia":"2025-09-05","index_f":99.903,"index_h":90.112,"index":190.015,"deltaF":0.0,"deltaH":-0.211,"acumF":-0.097,"acumH":-9.888,"deltaIndex":-0.211,"acumIndex":-9.985},
-{"dia":"2025-09-09","index_f":99.798,"index_h":103.85,"index":203.648,"deltaF":-0.105,"deltaH":15.245,"acumF":-0.202,"acumH":3.85,"deltaIndex":15.141,"acumIndex":3.648},
-{"dia":"2025-09-12","index_f":100.661,"index_h":104.6,"index":205.261,"deltaF":0.864,"deltaH":0.723,"acumF":0.661,"acumH":4.6,"deltaIndex":1.587,"acumIndex":5.261},
-{"dia":"2025-09-15","index_f":98.855,"index_h":104.864,"index":203.719,"deltaF":-1.794,"deltaH":0.252,"acumF":-1.145,"acumH":4.864,"deltaIndex":-1.542,"acumIndex":3.719},
-{"dia":"2025-09-19","index_f":98.167,"index_h":104.721,"index":202.888,"deltaF":-0.696,"deltaH":-0.136,"acumF":-1.833,"acumH":4.721,"deltaIndex":-0.833,"acumIndex":2.888},
-{"dia":"2025-09-23","index_f":101.987,"index_h":111.828,"index":213.815,"deltaF":3.891,"deltaH":6.786,"acumF":1.987,"acumH":11.828,"deltaIndex":10.677,"acumIndex":13.815},
-{"dia":"2025-09-26","index_f":102.414,"index_h":112.079,"index":214.493,"deltaF":0.419,"deltaH":0.224,"acumF":2.414,"acumH":12.079,"deltaIndex":0.643,"acumIndex":14.493},
-{"dia":"2025-09-30","index_f":99.863,"index_h":102.78,"index":202.643,"deltaF":-2.491,"deltaH":-8.297,"acumF":-0.137,"acumH":2.78,"deltaIndex":-10.788,"acumIndex":2.643},
-{"dia":"2025-10-07","index_f":99.383,"index_h":103.75,"index":203.133,"deltaF":-0.481,"deltaH":0.944,"acumF":-0.617,"acumH":3.75,"deltaIndex":0.463,"acumIndex":3.133},
-{"dia":"2025-10-10","index_f":99.663,"index_h":104.692,"index":204.355,"deltaF":0.281,"deltaH":0.908,"acumF":-0.337,"acumH":4.692,"deltaIndex":1.19,"acumIndex":4.355},
-{"dia":"2025-10-14","index_f":98.895,"index_h":104.807,"index":203.703,"deltaF":-0.77,"deltaH":0.11,"acumF":-1.105,"acumH":4.807,"deltaIndex":-0.66,"acumIndex":3.703},
-{"dia":"2025-10-17","index_f":98.895,"index_h":105.745,"index":204.64,"deltaF":0.0,"deltaH":0.895,"acumF":-1.105,"acumH":5.745,"deltaIndex":0.895,"acumIndex":4.64},
-{"dia":"2025-10-21","index_f":100.822,"index_h":105.705,"index":206.527,"deltaF":1.948,"deltaH":-0.038,"acumF":0.822,"acumH":5.705,"deltaIndex":1.911,"acumIndex":6.527},
-{"dia":"2025-10-28","index_f":101.672,"index_h":106.582,"index":208.254,"deltaF":0.843,"deltaH":0.83,"acumF":1.672,"acumH":6.582,"deltaIndex":1.673,"acumIndex":8.254},
-{"dia":"2025-10-31","index_f":101.672,"index_h":106.487,"index":208.159,"deltaF":0.0,"deltaH":-0.089,"acumF":1.672,"acumH":6.487,"deltaIndex":-0.089,"acumIndex":8.159},
-{"dia":"2025-11-04","index_f":101.97,"index_h":106.504,"index":208.474,"deltaF":0.293,"deltaH":0.016,"acumF":1.97,"acumH":6.504,"deltaIndex":0.309,"acumIndex":8.474},
-{"dia":"2025-11-07","index_f":102.011,"index_h":107.613,"index":209.624,"deltaF":0.04,"deltaH":1.042,"acumF":2.011,"acumH":7.613,"deltaIndex":1.082,"acumIndex":9.624},
-{"dia":"2025-11-11","index_f":101.697,"index_h":108.921,"index":210.618,"deltaF":-0.308,"deltaH":1.215,"acumF":1.697,"acumH":8.921,"deltaIndex":0.907,"acumIndex":10.618},
-{"dia":"2025-11-14","index_f":101.412,"index_h":107.729,"index":209.141,"deltaF":-0.28,"deltaH":-1.095,"acumF":1.412,"acumH":7.729,"deltaIndex":-1.375,"acumIndex":9.141},{"dia":"2025-11-18","index_f":101.512,"index_h":107.568,"index":209.08,"deltaF":0.098,"deltaH":-0.149,"acumF":1.512,"acumH":7.568,"deltaIndex":-0.05,"acumIndex":9.08},
-{"dia":"2025-12-19","index_f":98.691,"index_h":109.471,"index":208.162,"deltaF":-2.779,"deltaH":1.769,"acumF":-1.309,"acumH":9.471,"deltaIndex":-1.01,"acumIndex":8.162},
-{"dia":"2025-12-22","index_f":98.343,"index_h":109.046,"index":207.389,"deltaF":-0.353,"deltaH":-0.388,"acumF":-1.657,"acumH":9.046,"deltaIndex":-0.741,"acumIndex":7.389},
-{"dia":"2025-12-26","index_f":98.562,"index_h":108.87,"index":207.432,"deltaF":0.223,"deltaH":-0.162,"acumF":-1.438,"acumH":8.87,"deltaIndex":0.061,"acumIndex":7.432},
-{"dia":"2025-12-29","index_f":98.708,"index_h":108.87,"index":207.577,"deltaF":0.148,"deltaH":0.0,"acumF":-1.292,"acumH":8.87,"deltaIndex":0.148,"acumIndex":7.577},
-{"dia":"2026-01-09","index_f":99.069,"index_h":104.552,"index":203.62,"deltaF":0.366,"deltaH":-3.966,"acumF":-0.931,"acumH":4.552,"deltaIndex":-3.6,"acumIndex":3.62},
-{"dia":"2026-01-13","index_f":99.178,"index_h":105.172,"index":204.35,"deltaF":0.11,"deltaH":0.593,"acumF":-0.822,"acumH":5.172,"deltaIndex":0.704,"acumIndex":4.35}]
-</script>
+<script src = "Arquivos/DadosIndice.js"></script>
 
 
 
