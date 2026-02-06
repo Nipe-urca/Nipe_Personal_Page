@@ -1,0 +1,205 @@
+<html>
+
+<!--- Dados de entrada -->
+
+<head>
+<title>Painel de monitoramento de preços agrícolas do Cariri</title>
+<!-- Conectando com o css -->
+<link rel="stylesheet" href="layout.css" />
+<!-- biblioteca de icnoes html-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DX2NHZ35ZK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DX2NHZ35ZK');
+</script>
+
+<!--Cabeçalho-->
+
+<header>
+<table>
+<tr>
+<th><img src = https://nipe-urca.netlify.app/images/logo.png style = "width:2cm; height:2cm; border-radius: 50%;"></th>
+<th><div class = "titulo">
+<h1> Painel de monitoramento de preços agrícolas do Cariri</h1>
+</div>
+<th><img src = "https://foprop.org.br/wp-content/uploads/jet-engine-forms/guest/2023/03/URCA.jpg" style = "width:3cm; height:2cm;border-radius:50%;"</th>
+</tr>
+</table>
+
+</header>
+
+<!-- Corpo da pagina-->
+<body>
+  
+<hr>
+
+<p style="margin-top: 5rem;">
+  Nessa aba, o usuário do PMPAC pode consultar o histórico das variações mensais dos índices de preços. Dado que os boletins
+  de preços da CEASA geralmente possuem periodicidade semanal, e dado que o PMPAC sempre disponibiliza o informativo dos índices 
+  de preços na primeira semana de cada mês, o usuário pode consultar na figura a seguir a trajetória das variações dos índices 
+  relativas ao primeiro boletim de preços da primeira semana de cada mês. O objetivo central desta aba é disponibilizar uma métrica
+  de visualização para o histórico das variações mensais de preços, dado que o usuario já dispõe da possibilidade de consultar 
+  a última variação e as variações semanais na aba principal que trata dos índices de preços. 
+  
+</p>
+
+
+
+<!-- Bibliotecas para criacao de graficos -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+
+<!-- Criando o grafico com as variacoes-->
+
+
+<!-- Dados de variacao dos indices-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<canvas id="graficoVariacao" width="600" height="250" style="margin-top: 5rem; margin-bottom: 3rem;"></canvas>
+
+<script>
+  // 1. Corrigido: Adicionadas vírgulas entre os objetos
+  const historico = [
+    {"mes": "09-2025", "frutas": -0.09, "hortalicas": -12.68, "geral": 6.39 },
+    {"mes": "10-2025", "frutas": -4.27, "hortalicas": 0.17, "geral": -2.19 },
+    {"mes": "11-2025", "frutas": 2.60, "hortalicas": 2.19, "geral": 2.40 },
+    {"mes": "12-2025", "frutas": -3.26, "hortalicas": 3.64, "geral": 0.05 },
+    {"mes": "01-2026", "frutas": 0.49, "hortalicas": 7.71, "geral": 4.05 },
+    {"mes": "02-2026", "frutas": 1.12, "hortalicas": 2.91, "geral": 2.04}  
+  ];
+
+  // 2. Corrigido: Agora dentro de uma tag <script>
+  const ctxVariacao = document.getElementById("graficoVariacao").getContext("2d");
+
+  window.graficoVariacao = new Chart(ctxVariacao, {
+    type: "line",
+    data: {
+      // 3. Corrigido: Usando .map() para extrair os valores
+      labels: historico.map(item => item.mes), 
+      datasets: [
+        {
+          label: "IPPAC-Frutas",
+          data: historico.map(item => item.frutas), // Extraindo as frutas
+          borderColor: "rgba(255, 99, 132, 1)",
+          backgroundColor: "rgba(255, 99, 132, 0.2)",
+          fill: false,
+          tension: 0.3
+        },
+        {
+          label: "IPPAC-Hortaliças",
+          data: historico.map(item => item.hortalicas), // Extraindo as frutas
+          borderColor: "rgba(255, 206, 86, 1)",
+          backgroundColor: "rgba(255, 206, 86, 0.2)",
+          fill: false,
+          tension: 0.3
+        },
+        {
+          label: "IPPAC-Geral",
+          data: historico.map(item => item.geral), // Extraindo as frutas
+          borderColor: "rgba(75, 192, 192, 1)",
+          backgroundColor: "rgba(75, 192, 192, 0.2)",
+          fill: false,
+          tension: 0.3
+        }
+      ] // Fechamento do dataset
+    }, // Fechamento do data
+    options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: `Variação referente ao primeiro boletim de cada mês`,
+        font: {
+          size: 16
+        }
+      },
+        subtitle: {
+            display: true,
+            text: 'Fonte: CEASA-CE. Elaboração: NIPE', // Add your source text and link
+            position: 'bottom', // Position the source text below the chart title
+            font: {
+                size: 12,
+                family: 'sans-serif',
+                style: 'normal'
+            },
+            padding: {
+                top: 10,
+                bottom: 10
+            }
+        }
+    },
+    scales: {
+      y: {
+        title: {
+          display: true,
+          text: "Variação (%)"
+        },
+        beginAtZero: false
+      },
+      x: {
+        title: {
+          display: true,
+          text: "Mês atual"
+        }
+      }
+    }
+  }
+  });
+</script>
+
+
+<hr>
+
+<!-- Rodapé da página -->
+
+<footer>
+<div class = "tabela">
+<table>
+<tr> <th>
+<div class = "titulo1_rodape"><i class="fa fa-users"></i> Organização geral </div></th> 
+<th><div class = "titulo1_rodape"> <i class="fa fa-envelope"></i> Contatos </div></th><th><div class = "titulo1_rodape"> <i class="fa fa-camera"></i> Mídias </div></th>
+</tr>
+<tr> 
+<td><a href = "nipe-urca.netlify.app">Núcleo Integrado de Pesquisa Econômica</a></td>
+<td> <i class="fa fa-envelope-open-o" aria-hidden="true"></i>  nipe.urca@gmail.com </td><td> <a href = "https://www.instagram.com/nipe_urca/?igsh=MWFmaGticnJ3ejVnZg%3D%3D"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>  </td>
+</tr>
+<tr> 
+<td><a href = "urca.br">Universidade Regional do Cariri</a></td>
+<td><i class="fa fa-envelope-open-o" aria-hidden="true"></i> urca@urca.br</td><td> <a href = "https://www.instagram.com/urcaoficial_/" > <i class="fa fa-instagram" aria-hidden="true"></i> </a>  <a href = "https://www.linkedin.com/school/universidade-regional-do-cariri/?originalSubdomain=br"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> <a href = "https://www.facebook.com/urcaceara/?locale=pt_BR"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </td>
+</tr>
+<tr> 
+<td><a href = "urca.br">Departameto de Economia</a></td>
+<td><i class="fa fa-envelope-open-o" aria-hidden="true"></i> dpto.economia@urca.br</td><td></td>
+</tr>
+<tr> 
+<td> <i class="fa fa-map-marker" aria-hidden="true"></i> <a href = "https://maps.app.goo.gl/YB9VzPNda9BGQ8vE6">Rua Cel. Antonio Luiz, 1161, Pimenta, Carto-CE</a></td>
+<td></td><td></td>
+</tr>
+<tr> 
+<td> </td>
+<td><div class = "titulo1_rodape"> <i class="fa fa-user-circle-o"></i> Contribuições </div></td><td></td>
+</tr>
+<td> </td>
+<td> <a href = "https://maps.app.goo.gl/hVNz7dyrXMZT2MxX9">Ceasa Cariri</a> </td><td></td>
+</tr>
+</tr>
+<td> </td>
+<td> CEPEC - URCA</a> </td><td> <a href = "https://www.instagram.com/cepec.economiaurca/" > <i class="fa fa-instagram" aria-hidden="true"></i> </a> <a href = "linktr.ee/cepecurca"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </td>
+</tr>
+</table>
+</div>
+</footer>
+  
+  
+</body>
+
+
+
+</html>
