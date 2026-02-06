@@ -1,0 +1,16 @@
+---
+title: "IPPAC registra aumento de preços de produtos agrícolas em fevereiro"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-02-06"
+output: html_document
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+
+O NIPE lançou nessa sexta-feira (06/02) os resultados do Índice de Preços de Produtos Agrícolas do Cariri (IPPAC) referentes ao mês de fevereiro de 2026. Os resultados mostram um aumento nos preços de ambas as cestas representativas de produtos que compõem o índice (frutas e hortaliças). Em comparação com a primeira semana de janeiro de 2026, o IPPAC registrou um aumento de 1.12% nos preços das frutas e 2.91% no preço das hortaliças. Como consequência, a variação média geral dos preços dos produtos agrícolas na primeira semana de fevereiro foi de 2.04% em relação ao mesmo período do mês anterior. Desde o início do monitoramento, o IPPAC registra uma queda de aproximadamente 0.71% nos preços dos produtos agrícolas, com o preço médio das frutas recuando 3.59% e o preço médio das hortaliças avançando cerca de 2.17%. Clique [aqui](https://nipe-urca.netlify.app/ippac/home) para maiores detalhes.
+
+</hr>

@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [IPPAC registra aumento de preços de produtos agrícolas em fevereiro](/2026/02/06/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-fevereiro/)
+
 # [Discente do NIPE é aprovado em programa de pós-graduação da UFV](/2025/12/22/discente-do-nipe-é-aprovado-em-programa-de-pós-graduação-da-ufv/)
 
 # [Alerta de seminário de pesquisa](/2025/10/30/alerta-de-seminários-de-pesquisa/)
