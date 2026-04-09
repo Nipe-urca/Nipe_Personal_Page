@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [IPPAC registra aumento de preços de produtos agrícolas em abril](/2026/04/09/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-abril/)
+
 # [IPPAC registra aumento de preços de produtos agrícolas em março](/2026/03/09/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-março/)
 
 # [IPPAC registra aumento de preços de produtos agrícolas em fevereiro](/2026/02/06/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-fevereiro/)
