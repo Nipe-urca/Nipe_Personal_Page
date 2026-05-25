@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de seminário de pesquisa](/2026/05/25/alerta-de-seminários-de-pesquisa/)
+
 # [IPPAC registra aumento de preços de produtos agrícolas em maio](/2026/05/11/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-maio/)
 
 # [IPPAC registra aumento de preços de produtos agrícolas em abril](/2026/04/09/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-abril/)

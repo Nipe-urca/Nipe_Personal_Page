@@ -1,0 +1,14 @@
+---
+title: "Alerta de seminários de Pesquisa"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-05-25"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O Núcleo Integrado de Pesquisa Econômica convida a comunidade acadêmica em geral para participar do próximo seminário de pesquisa do NIPE. O seminário ocorrerá no dia 28/05/2026 às 15:00 e será realizado no modo remoto com transmissão via google meet. O convidado é o Pesquisador de Pós-Graduação Marcio Júlio Pereira Henriques (*Doutorando em Economia no Programa de Pós-Graduação em Economia da UFJF*) que ministrará detalhes da pesquisa intitulada "*Dynamics of Brazilian industrial performance: spatial perspectives of the deindustrialization process*". O trabalho investiga o processo de desindustrialização no Brasil entre 2006 e 2021 sob uma perspectiva espacial. A análise destaca a concentração da atividade industrial em setores de menor intensidade tecnológica e as desigualdades regionais desse processo, especialmente entre o Sudeste e outras regiões do país. Além disso, o trabalho busca identificar fatores estruturais e macroeconômicos associados, bem como sinais de resiliência em regiões com maior diversificação produtiva, discutindo possíveis caminhos de política econômica para mitigar essa tendência. Clique [aqui](https://meet.google.com/snr-qsyo-enr) para ser direcionado ao link de acesso ao seminário.
+
+</hr>
