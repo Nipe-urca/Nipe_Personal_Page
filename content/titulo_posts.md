@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Pesquisadores do NIPE tem trabalho aprovado para apresentação no XXIX Encontro de Economia da Região Sul](/2026/05/26/pesquisadores-do-nipe-tem-trabalho-aprovado-para-apresentação-no-xxix-encontro-de-economia-da-região-sul/)
+
 # [Alerta de seminário de pesquisa](/2026/05/25/alerta-de-seminários-de-pesquisa/)
 
 # [IPPAC registra aumento de preços de produtos agrícolas em maio](/2026/05/11/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-maio/)

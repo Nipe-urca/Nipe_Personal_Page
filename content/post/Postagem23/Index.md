@@ -1,0 +1,14 @@
+---
+title: "Pesquisadores do NIPE tem trabalho aprovado para apresentação no XXIX Encontro de Economia da Região Sul"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-05-26"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O NIPE estará presente no [XXIX Encontro de Economia da Região Sul](https://www.anpec.org.br/novosite/br/xxix-encontro-de-economia-da-regiao-sul), que acontecerá entre os dias 17 e 19 de junho de 2026 em Florianópolis - SC, na Universidade Federal de Santa Catarina (UFSC). A presença no evento decorre da aprovação do trabalho intitulado ***"Reação das Economias Abertas à "Guerra" Tarifária"*** para apresentação na área temática de Economia Internacional. O trabalho é fruto da monografia de graduação do discente Lucas Lima de Oliveira, o qual foi orientado pelo Prof. Dr. Helson Gomes de Souza e coorientado pelo Prof. Dr. Áydano Ribeiro Leite. Os demais membros do NIPE parabenizam os autores pela aprovação do trabalho no evento. Clique [aqui](https://www.anpec.org.br/sul/2026/submissao/files_I/i5-58ad014b9cd4f4497b3af849c9ba6d8e.pdf) e acesse o manuscrito na íntegra.
+
+</hr>
