@@ -92,6 +92,8 @@ title: Produção científica do NIPE
             break;
             case 'anais':
               resultText = `
+              <hr> <h1> 2026</h1> 
+              <p>(i) <a href = "https://www.anpec.org.br/sul/2026/submissao/files_I/i5-58ad014b9cd4f4497b3af849c9ba6d8e.pdf"> Reações das Economias Abertas à "Guerra" Tarifária.</a> Em Anais do 29º Encontro de Economia da Região Sul. Coutoria dos pesquisadores Dr. Helson Gomes e Dr. Áydano Leite. </p>
               <hr> <h1> 2025</h1> 
               <p>(i) <a href = "https://www.anpec.org.br/encontro/2025/submissao/files_I/i10-98d2b29c18dc7601f57ee81eb01a56bc.pdf"> Efeitos das Casas de Jogos de Azar Sobre a Criminalidade no Estado de São Paulo.</a> Em Anais do 53º Encontro Nacional de Economia da ANPEC. Autoria do discente Gabriel Antony (PPGE/UFPB). </p>
               <p> (ii) <a href = https://observatorio.fies.org.br/inscricao/anais>Pass-through cambial e inflação brasileira: uma abordagem via funções impulso-resposta em modelos VAR. </a>Em Anais do VI Encontro de Economia Aplicada de Sergipe. Autoria do discente Anderson Oliveira e coautoria dos professores Wellington Justos (PPGERU/URCA) e Áydano Ribeiro Leite (NIPE/URCA).</p>
