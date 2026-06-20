@@ -66,6 +66,10 @@ title: Produção científica do NIPE
             break;
           case 'periodicos':
             resultText = `<hr>
+            <h1>2026</h1> 
+            <p> <a href="http://dx.doi.org/10.11606/1980-5330/ea194773"> Escolas em Tempo Integral e Desempenho no ENEM: Uma Avaliação de Impacto Para o Estado do Ceará</a>.
+            Publicado na <a href = https://revistas.usp.br/ecoa/pt_BR> Revista de Economia Aplicada</a>. Coautoria do Prof. Helson Gomes de Souza.
+            </p>
             <h1>2025</h1> 
             <p> <a href="https://doi.org/10.1017/S1355770X25000063"> Testing Kuznets’ environmental hypothesis for the Legal Amazon: a nonlinear approach</a>.
             Publicado na <a href = https://www.cambridge.org/core/journals/environment-and-development-economics> Environment and Development Economics</a>. Autoria do Prof. Helson Gomes de Souza e coautoria do Dr. Gerrio Barbosa (Associação Bem Comum).
@@ -114,7 +118,6 @@ title: Produção científica do NIPE
             case 'aceitos':
               resultText = `
               <hr>
-              <p>(i) Escolas em Tempo Integral e Desempenho no Enem: uma avaliação de impacto para o Estado do Ceará. Revista de Economia Aplicada, 2025. Coautoria do Prof. Helson Gomes.</p>
               <p>(ii) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
               <hr>
               `;

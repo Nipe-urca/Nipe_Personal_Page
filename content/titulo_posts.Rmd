@@ -4,6 +4,8 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Alerta de publicação em periódico](/2026/06/20/alerta-de-publicação-em-periódico/)
+
 # [IPPAC registra aumento de preços de produtos agrícolas em junho](/2026/06/09/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-junho/)
 
 
