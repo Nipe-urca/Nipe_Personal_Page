@@ -4,6 +4,9 @@ output: html_document
 buildDrafts: true
 ---
 
+# [IPPAC registra queda de preços de produtos agrícolas em julho](/2026/07/07/ippac-registra-queda-de-preços-de-produtos-agrícolas-em-julho/)
+
+
 # [Alerta de publicação em periódico](/2026/06/20/alerta-de-publicação-em-periódico/)
 
 # [IPPAC registra aumento de preços de produtos agrícolas em junho](/2026/06/09/ippac-registra-aumento-de-preços-de-produtos-agrícolas-em-junho/)
