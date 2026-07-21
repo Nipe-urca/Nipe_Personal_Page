@@ -80,7 +80,7 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
     <a href="http://lattes.cnpq.br/1962326036877415" target="_blank">Soraia Araújo Madeira</a>
     <p>Doutora em Economia (UFV)</p>
     <p>Área mãe: Microeconometria</p>
-    <img src="/images/soraiaCircular.png" width="45%" height="120" style="display: block; margin: 0 auto;">
+    <img src="/images/soraiaCircular.png" width="39%" height="120" style="display: block; margin: 0 auto;">
   </div>
 </div>
   
