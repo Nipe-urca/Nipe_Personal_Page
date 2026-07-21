@@ -4,6 +4,9 @@ output: html_document
 buildDrafts: true
 ---
 
+# [NIPE tem três trabalhos aprovados para apresentação no XXXI Encontro Regional de Economia do Nordeste](/2026/07/21/nipe-tem-três-trabalhos-aprovados-para-apresentação-no-xxxi-encontro-regional-de-economia-do-nordeste/)
+
+
 # [IPPAC registra queda de preços de produtos agrícolas em julho](/2026/07/07/ippac-registra-queda-de-preços-de-produtos-agrícolas-em-julho/)
 
 

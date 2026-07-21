@@ -1,0 +1,22 @@
+---
+title: "NIPE tem três trabalhos aprovados para apresentação no XXXI Encontro Regional de Economia do Nordeste"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-07-21"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+Os integrantes do NIPE participarão do XXXI Encontro Regional de Economia do Nordeste que ocorrerá entre os dias 19 e 21 de agosto de 2026 em Natal-RN. A participação decorre da aprovação de três trabalhos para apresentação no encontro na categoria artigos científicos. Os detalhes de cada trabalho estão listados a seguir:
+
+(i) <a href = "/pdfs/trabalho1.pdf" target="_blank"> Desigualdade de oportunidade no acesso à educação no Brasil: evidências antes e após a pandemia da Covid-19 </a> de autoria da discente de graduação Antonia Claudiene Alves da Silva e orientação dos professores Diogo Sobreira e Soraia Madeira, aprovado na área temática de Economia do Trabalho, Economia Social e Demografia.
+
+(ii) <a href = "/pdfs/trabalho2.pdf" target="_blank"> Private Health Insurance and Healthcare Utilization: New Causal Evidence from Brazil" </a> de autoria da discente de graduação Glória Maria Alves e orientação do professor Diogo Sobreira, aprovado na área temática de teoria econômica e métodos quantitativos.
+
+(iii) <a href = "https://helsongsouza.netlify.app/Files_Publications/File05.pdf" target="_blank"> Como a Tributação Sobre o Uso da Água Altera os Padrões da Pobreza? Uma Análise Para o Estado do Ceará" </a> de autoria do professor Helson Gomes de Souza, aprovado na área temática de economia regional.
+
+A coordenação do NIPE parabeniza os pesquisadores pelas aprovações e pelo esforço desempenhado na elaboração dos estudos.
+
+
