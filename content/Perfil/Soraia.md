@@ -14,19 +14,9 @@ output: html_document
 </div>
 
 
-# Formação acadêmica
+# Formação acadêmica e atuação profissional
 
-Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Cariri (URCA) em 2009. Possui o título de Mestrado em Economia Rural pelo Programa de Pós-Graduação em Economia Rural da Universidade Federal do Ceará (PPGER/UFC) obtido em 2012. Possui o título de Doutorado em Economia Aplicada pelo Programa de Pós-Graduação em Economia Aplicada da Universidade Federal de Viçosa (PPGEA/UFV) obtido em 2018. 
-
-# Carreira profissional
-
-* Atualmente é Professora Adjunta do Departamento de Economia da Universidade Regional do Cariri (URCA), atuando no curso de Ciencias Econômicas do Campus Iguatu.
-
-* Ocupa atualmente o cargo de Coordenadora de Pesquisa e Extensão na Unidade Descentralizada de Iguatu da Universidade Regional do Cariri (URCA).
-
-* Entre 2023 e 2025 exerceu o cargo de estagiária de Pós-Doutorado junto ao Departamento de Economia da Universidade Regional do Cariri sobre o financiamento da Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico do Estado do Ceará (Funcap).
-
-* Foi professora substituta do Departamento de Economia da Universidade Regional do Cariri (URCA), atuando no curso de Ciencias Econômicas do Campus Iguatu entre 2010 e 2013.
+Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Cariri (URCA) em 2009. Possui o título de Mestrado em Economia Rural pelo Programa de Pós-Graduação em Economia Rural da Universidade Federal do Ceará (PPGER/UFC) obtido em 2012. Possui o título de Doutorado em Economia Aplicada pelo Programa de Pós-Graduação em Economia Aplicada da Universidade Federal de Viçosa (PPGEA/UFV) obtido em 2018. Atualmente é Professora Adjunta do Departamento de Economia da Universidade Regional do Cariri (URCA), atuando no curso de Ciencias Econômicas do Campus Iguatu. Também é Economista da Saúde na Prefeitura Municipal de Iguatu-CE.
 
 # Áreas de interesse e atuação
 
