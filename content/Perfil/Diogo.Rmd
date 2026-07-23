@@ -10,6 +10,7 @@ output: html_document
     <a href="http://lattes.cnpq.br/3280720633645199" target="_blank" style="font-size: 32px; font-weight: bold; text-decoration: none;">Diogo Brito Sobreira</a>
     <p style="margin: 5px 0 0 0;">Doutor em Economia (UFV)</p>
     <p style="margin: 5px 0 0 0;">Área mãe: Microeconometria</p>
+    <p style="margin: 5px 0 0 0;">Contato: diogo.sobreira@urca.br</p>
   </div>
 </div>
 
@@ -19,6 +20,8 @@ output: html_document
 Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Cariri (URCA) em 2011. Possui o título de Mestrado em Economia Rural pelo Programa de Pós-Graduação em Economia Rural da Universidade Federal do Ceará (PPGER/UFC) obtido em 2014. Possui o título de Doutorado em Economia Aplicada pelo Programa de Pós-Graduação em Economia Aplicada da Universidade Federal de Viçosa (PPGEA/UFV) obtido em 2018. Atualmente é Professor Adjunto do Departamento de Economia da Universidade Regional do Cariri (URCA), cargo que ocupa desde 2024.
 
 # Áreas de interesse e atuação
+
+* Avaliação de políticas públicas.
 
 * Economia da educação.
 
