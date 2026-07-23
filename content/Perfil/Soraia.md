@@ -30,21 +30,23 @@ Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Ca
 
 # Produção bibliográfica
 
-## 2019
+## Artigos publicados em periódicos
 
-* **Madeira, S. A**; Khan, A. S; Sousa, E. P; Barros, F. L. A; [***Análise da modernização agrícola cearense no período de 1996 e 2006***](http://dx.doi.org/10.5007/1982-5153.2019v34n72p307). ***GEOSUL (UFSC)***, v.34, p.307-334, 2019.
+### 2019
 
-## 2018 
+* **Madeira, S. A**; Khan, A. S; Sousa, E. P; Barros, F. L. A; [Análise da modernização agrícola cearense no período de 1996 e 2006](http://dx.doi.org/10.5007/1982-5153.2019v34n72p307). ***GEOSUL (UFSC)***, v.34, p.307-334, 2019.
 
-* Alves, F. F; **Madeira, S. A**; Sousa, L. V. C. [***Eficiência e Convergência da Inovação: um Estudo do Progresso Tecnológico para Países Desenvolvidos e em Desenvolvimento***](https://seer.ufrgs.br/index.php/AnaliseEconomica/article/view/60686). ***Análise Econômica (UFRGS)***, v.36, p.121-148, 2018.
+### 2018 
+
+* Alves, F. F; **Madeira, S. A**; Sousa, L. V. C. [Eficiência e Convergência da Inovação: um Estudo do Progresso Tecnológico para Países Desenvolvidos e em Desenvolvimento](https://seer.ufrgs.br/index.php/AnaliseEconomica/article/view/60686). ***Análise Econômica (UFRGS)***, v.36, p.121-148, 2018.
 
 * **Madeira, S. A**; Sobreira, D. B; Lima, J. E. ; Justo, W. R . [Desempenho do mercado de trabalho cearense em 2000 e 2010](https://www.researchgate.net/publication/338282247_DESEMPENHO_DO_MERCADO_DE_TRABALHO_CEARENSE_EM_2000_E_2010#read), ***Economia e Políticas Públicas***, v.6, p.99-124, 2018.
 
-## 2016
+### 2016
 
 * Sobreira, D. B; **Madeira, S. A**; Freitas, C. O; Lima, J. E. [Eficiência técnica agropecuária no estado da Bahia e seus fatores condicionantes no curto e longo prazo](https://doi.org/10.61673/ren.2016.626). ***Revista Econômica do Nordeste***, v.47, p.59-76, 2016.
 
-## 2012
+### 2012
 
 * Alves. C. L. B; **Madeira, S. A**; Macambira, J. [Serviços e Desenvolvimento Regional: Considerações a Partir do Mercado de Trabalho Cearense](https://www.bnb.gov.br/revista/ren/article/view/204/182). ***Revista Econômica do Nordeste***, v.43, p.155-170, 2012.
 
