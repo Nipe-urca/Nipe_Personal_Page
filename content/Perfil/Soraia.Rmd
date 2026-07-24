@@ -10,6 +10,7 @@ output: html_document
     <a href="http://lattes.cnpq.br/1962326036877415" target="_blank" style="font-size: 32px; font-weight: bold; text-decoration: none;">Soraia Araújo Madeira</a>
     <p style="margin: 5px 0 0 0;">Doutora em Economia (UFV)</p>
     <p style="margin: 5px 0 0 0;">Área mãe: Microeconometria</p>
+    <p style="margin: 5px 0 0 0;">Contato: soraiamadeira@gmail.com</p>
   </div>
 </div>
 

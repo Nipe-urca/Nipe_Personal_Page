@@ -49,13 +49,13 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
 <body>
   <div class="row">
   <div class="column">
-  <a href="http://lattes.cnpq.br/3280720633645199" target = "_blank">Diogo Brito Sobreira</a>
+  <a href="/perfil/diogo" target = "_blank">Diogo Brito Sobreira</a>
   <p>Doutor em Economia (UFV)</p>
   <p>Área mãe: Microeconometria</p>
   <img src="/images/diogoCircular.png" width="35%" height="110">
   </div>
   <div class="column">
-  <a href= "http://lattes.cnpq.br/8846897044541237" target = "_blank"> Valdeir Soares Monteiro</a>
+  <a href= "/perfil/valdeir" target = "_blank"> Valdeir Soares Monteiro</a>
   <p> Doutor em Economia (UFC) </p>
   <p> Área mãe: Finanças</p>
   <img src="/images/valdeirCircular.png" width="35%" height="110">
@@ -67,7 +67,7 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
   <img src="/images/helsonCircular.png" width="35%" height="110">
   </div>
   <div class="column">
-  <a href = "http://lattes.cnpq.br/0092907266715994" target = "_blank"> Áydano Ribeiro Leite</a>
+  <a href = "/perfil/aydano" target = "_blank"> Áydano Ribeiro Leite</a>
   <p> Doutor em Economia (UFBA) </p>
   <p> Área mãe: Teoria Econômica </p>
   <img src="/images/aydanoCircular.png" width="35%" height="110">
@@ -77,7 +77,7 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
   
   <div class="row" style="display: flex; justify-content: center; text-align: center;">
   <div class="column">
-    <a href="http://lattes.cnpq.br/1962326036877415" target="_blank">Soraia Araújo Madeira</a>
+    <a href="/perfil/soraia" target="_blank">Soraia Araújo Madeira</a>
     <p>Doutora em Economia (UFV)</p>
     <p>Área mãe: Microeconometria</p>
     <img src="/images/soraiaCircular.png" width="39%" height="120" style="display: block; margin: 0 auto;">
