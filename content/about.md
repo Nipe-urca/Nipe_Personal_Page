@@ -61,7 +61,7 @@ a URCA às técnicas de pesquisa que situam-se na fronteira do conhecimento da t
   <img src="/images/valdeirCircular.png" width="35%" height="110">
   </div>
   <div class="column">
-  <a href="http://lattes.cnpq.br/6906677347926569" target = "_blank">Helson Gomes de Souza</a>
+  <a href="/perfil/helson" target = "_blank">Helson Gomes de Souza</a>
   <p>Doutor em Economia (UFPB)</p>
   <p>Área mãe: Teoria Econômica</p>
   <img src="/images/helsonCircular.png" width="35%" height="110">

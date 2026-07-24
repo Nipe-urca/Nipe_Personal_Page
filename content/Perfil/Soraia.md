@@ -56,3 +56,135 @@ Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Ca
 <hr>
 
 
+<p style = "align-content = center; font-size: 25px; text-align: center">
+ <strong>Resumo da produção acadêmica</strong>
+</p>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Canvas para Publicações -->
+<canvas id="graficopublicacao" width="600" height="220" style="margin-top: 2rem; margin-bottom: 2rem;"></canvas>
+
+<!-- Canvas para Citações por Ano -->
+<!--  <canvas id="graficocitacao" width="600" height="220" style="margin-top: 2rem; margin-bottom: 2rem;"></canvas> -->
+
+<!-- Canvas para Citações Acumuladas -->
+<!--  <canvas id="graficocitacaoacumulada" width="600" height="220" style="margin-top: 2rem; margin-bottom: 3rem;"></canvas> -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const historico = [
+      {"ano": "2012", "publicacoes": 2, "citacoes": 0},
+      {"ano": "2013", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2014", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2015", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2016", "publicacoes": 1, "citacoes": 0},
+      {"ano": "2017", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2018", "publicacoes": 2, "citacoes": 0},
+      {"ano": "2019", "publicacoes": 1, "citacoes": 0},
+      {"ano": "2020", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2021", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2022", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2023", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2024", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2025", "publicacoes": 0, "citacoes": 0},
+      {"ano": "2026", "publicacoes": 0, "citacoes": 0}
+    ];
+
+    // 1. Processa e agrupa os dados por ano
+    const dadosConsolidados = historico.reduce((acc, item) => {
+      if (!acc[item.ano]) {
+        acc[item.ano] = { publicacoes: 0, citacoes: 0 };
+      }
+      acc[item.ano].publicacoes += item.publicacoes;
+      acc[item.ano].citacoes += item.citacoes;
+      return acc;
+    }, {});
+
+    const anos = Object.keys(dadosConsolidados);
+    const publicacoes = anos.map(ano => dadosConsolidados[ano].publicacoes);
+    const citacoes = anos.map(ano => dadosConsolidados[ano].citacoes);
+
+    // Cálculo da soma acumulada de citações
+    let acumulado = 0;
+    const citacoesAcumuladas = citacoes.map(qtd => acumulado += qtd);
+
+    // 2. Gráfico 1: Publicações por Ano
+    const ctxPublicacao = document.getElementById('graficopublicacao');
+    if (ctxPublicacao) {
+      new Chart(ctxPublicacao, {
+        type: 'bar',
+        data: {
+          labels: anos,
+          datasets: [{
+            label: 'Número de Publicações',
+            data: publicacoes,
+            backgroundColor: 'rgba(54, 162, 235, 0.7)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+        }
+      });
+    }
+<!--
+    // 3. Gráfico 2: Citações por Ano
+    const ctxCitacao = document.getElementById('graficocitacao');
+    if (ctxCitacao) {
+      new Chart(ctxCitacao, {
+        type: 'bar',
+        data: {
+          labels: anos,
+          datasets: [{
+            label: 'Número de Citações (Anual)',
+            data: citacoes,
+            backgroundColor: 'rgba(255, 159, 64, 0.7)',
+            borderColor: 'rgba(255, 159, 64, 1)',
+            borderWidth: 1,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    }
+
+    // 4. Gráfico 3: Citações Acumuladas
+    const ctxAcumulado = document.getElementById('graficocitacaoacumulada');
+    if (ctxAcumulado) {
+      new Chart(ctxAcumulado, {
+        type: 'bar',
+        data: {
+          labels: anos,
+          datasets: [{
+            label: 'Citações Acumuladas',
+            data: citacoesAcumuladas,
+            backgroundColor: 'rgba(153, 102, 255, 0.7)', // Cor roxa para destacar a curva acumulada
+            borderColor: 'rgba(153, 102, 255, 1)',
+            borderWidth: 1,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: { title: { display: true, text: 'Ano' } },
+            y: {
+              beginAtZero: true,
+              title: { display: true, text: 'Total Acumulado de Citações' }
+            }
+          }
+        }
+      });
+      
+      -->
+    }
+  });
+</script>
+
