@@ -17,7 +17,7 @@ output: html_document
 
 # Formação acadêmica e atuação profissional
 
-Concluiu a Graduação em Ciências Econômicas pela Universidade Federal de Pernambuco (UFPE) em 2015. Possui o título de Mestrado em Economia Aplicada pelo Programa de Pós-Graduação em Economia Aplicada da Universidade Federal de Pernambuco (PPGECON/UFPE) obtido em 2018. Possui o título de Doutorado em Economia Aplicada pelo Centro de Aperfeiçoamento de Economistas do Nordeste da Universidade Federal do Ceará (CAEN/UFC) obtido em 2023. Atualmente é Professor Adjunto do Departamento de Economia da Universidade Regional do Cariri (URCA), cargo que ocupa desde 2024.
+Concluiu a Graduação em Ciências Econômicas pela Universidade Federal de Pernambuco (UFPE) em 2015. Possui o título de Mestrado em Economia Aplicada pelo Programa de Pós-Graduação em Economia Aplicada da Universidade Federal de Pernambuco (PPGECON/UFPE) obtido em 2018. Possui o título de Doutorado em Economia Aplicada pelo Centro de Aperfeiçoamento de Economistas do Nordeste da Universidade Federal do Ceará (CAEN/UFC) obtido em 2023. Atualmente é Professor Adjunto do Departamento de Economia da Universidade Regional do Cariri (URCA), cargo que ocupa desde 2024. Simultaneamente, é estagiário de Pós-Doutorado no CAEN/UFC e ocupa o cargo de Chefe do Departamento de Economia da Universidade Regional do Cariri desde 2026.
 
 # Áreas de interesse e atuação
 

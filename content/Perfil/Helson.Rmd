@@ -117,9 +117,9 @@ ARAUJO, C.F ; [SOUZA, H. G](https://orcid.org/0000-0001-7873-3798). A Pobreza no
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const historico = [
-      {"ano": "2016", "publicacoes": 1, "citacoes": 0},
+      {"ano": "2016", "publicacoes": 1, "citacoes": 1},
       {"ano": "2017", "publicacoes": 0, "citacoes": 0},
-      {"ano": "2018", "publicacoes": 3, "citacoes": 0},
+      {"ano": "2018", "publicacoes": 3, "citacoes": 1},
       {"ano": "2019", "publicacoes": 7, "citacoes": 0},
       {"ano": "2020", "publicacoes": 1, "citacoes": 6},
       {"ano": "2021", "publicacoes": 2, "citacoes": 15},
