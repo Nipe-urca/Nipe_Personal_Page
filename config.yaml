@@ -15,10 +15,16 @@ menu:
   main:
     - name: Sobre nós
       url: /about/
+      weight: 1
     - name: Produção científica
       url: /trabalhos/
+      weight: 3
     - name: Postagens do NIPE
       url: /titulo_posts/
+      weight: 2
+    - name: Indicadores
+      url: /indicadores/
+      weight: 4
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
