@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Sistema de Monitoramento de preços e custos de alimentos</title>
+  
+  <!-- Biblioteca de ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  
+  <meta charset="UTF-8">
+  
+  <style>
+    /* =========================================================
+   CABEÇALHO
+   ========================================================= */
+
+.cabecalho {
+  width: 100%;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Área principal do cabeçalho */
+.cabecalho-topo {
+  max-width: 1200px;
+  min-height: 150px;
+  margin: 0 auto;
+  padding: 25px 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Área dos logotipos */
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-shrink: 0;
+}
+
+/* Logotipos */
+.logourca {
+  width: 75px;
+  aspect-ratio: 1 / 1;
+  border-radius: 55%;
+  object-fit: cover;
+}
+
+.logonipe {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logocepec {
+  width: 80px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.logolaec {
+  width: 120px;
+  height: 70px;
+}
+
+/* Área do título */
+.cabecalho-titulo {
+  flex: 1;
+  text-align: right;
+}
+
+.titulo {
+  margin: 0;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.subtitulo {
+  margin: 10px 0 0;
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   BARRA DE NAVEGAÇÃO
+   ========================================================= */
+
+.navbar {
+  width: 100%;
+  min-height: 52px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #1e293b;
+  border-top: 1px solid #334155;
+  border-bottom: 1px solid #334155;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  list-style: none;
+}
+
+/* Cada opção */
+.opcao {
+  margin: 0;
+}
+
+/* Links */
+.link {
+  display: block;
+  padding: 16px 22px;
+
+  color: #cbd5e1;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+.link:hover {
+  color: #ffffff;
+  background-color: #334155;
+}
+
+/* Página/área em destaque */
+.link:focus,
+.link:active {
+  color: #38bdf8;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .cabecalho-topo {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 15px;
+  }
+
+  .logos {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cabecalho-titulo {
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 26px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 5px 10px;
+  }
+
+  .link {
+    padding: 12px 15px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .logos {
+    gap: 12px;
+  }
+
+  .logourca {
+    width: 70px;
+    height: 40px;
+  }
+
+  .logonipe {
+    width: 70px;
+    height: 55px;
+  }
+
+  .logocepec {
+    width: 65px;
+    height: 55px;
+  }
+
+  .logolaec {
+    width: 55px;
+    height: 55px;
+  }
+
+  .titulo {
+    font-size: 21px;
+  }
+
+  .subtitulo {
+    font-size: 12px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+
+  .opcao {
+    width: 100%;
+    text-align: center;
+  }
+
+  .link {
+    padding: 13px;
+    border-bottom: 1px solid #334155;
+  }
+}
+
+    
+    .opcao{
+      margin-left: 20px;
+    }
+    
+    /* Estilos gerais do rodapé */
+    .rodape-principal {
+      background-color: #0f172a; /* Tom escuro elegante */
+      color: #f8fafc;
+      padding: 48px 20px 24px 20px;
+      font-family: Arial, sans-serif;
+      margin-top: 200px;
+    }
+
+    /* Container para alinhar as colunas */
+    .rodape-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    /* Estilo padrão de cada coluna */
+    .rodape-coluna {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    /* Títulos das colunas */
+    .rodape-coluna h3 {
+      color: #38bdf8; /* Azul claro de destaque */
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Parágrafos e textos */
+    .rodape-coluna p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #94a3b8;
+      margin: 0 0 12px 0;
+    }
+
+    /* Lista de links úteis */
+    .rodape-coluna ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .rodape-coluna ul li {
+      margin-bottom: 8px;
+    }
+
+    .rodape-coluna ul li a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s ease;
+    }
+
+    .rodape-coluna ul li a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    /* Ícones de Mídias Sociais */
+    .redes-sociais {
+      margin-top: 16px;
+    }
+
+    .redes-sociais a {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background-color: #1e293b;
+      color: #f8fafc;
+      text-align: center;
+      line-height: 32px;
+      border-radius: 4px;
+      margin-right: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .redes-sociais a:hover {
+      background-color: #38bdf8;
+      color: #0f172a;
+    }
+
+    /* Rodapé inferior (Copyright) */
+    .rodape-inferior {
+      max-width: 1200px;
+      margin: 40px auto 0 auto;
+      border-top: 1px solid #1e293b;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #64748b;
+    }
+    
+    .textoInicio{
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-align: justify;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
+    
+    .textoParagrafo{
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-align: justify;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+    
+    .tituloSecao{
+      margin-left: 42.5%;
+      margin-top: -15%;
+      font-family: Arial, sans-serif;
+    }
+    
+    .coordenadores {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 60px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .coordenador {
+            width: 220px;
+        }
+
+        .coordenador h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .coordenador img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        .coordenador p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        
+     .menu-lateral {
+    position: sticky;
+    top: 220px;
+    width: 200px;
+    background-color: white;
+    padding-top: 30px;
+    height: fit-content;
+    margin-bottom: 450px;
+  }
+
+  .menu-lateral a {
+      display: block;
+      color: gray;
+      padding: 25px;
+      text-decoration: none;
+  }
+  
+  .menu-lateral a:hover {
+      background-color: #444;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+
+
+  </style>
+</head>
+
+
+<body>
+  
+  <!-- Cabeçalho -->
+  
+  <header class="cabecalho">
+
+  <!-- Área superior -->
+  <div class="cabecalho-topo">
+
+    <!-- Logotipos -->
+    <div class="logos">
+
+      <img
+        src="https://nipe-urca.netlify.app/images/urcaCircular.png"
+        class="logourca"
+        alt="Logo da URCA"
+      >
+
+      <img
+        src="https://nipe-urca.netlify.app/images/nipeCircular.png"
+        class="logonipe"
+        alt="Logo do NIPE"
+      >
+
+      <img
+        src="https://nipe-urca.netlify.app/images/LAEC.png""
+        class="logolaec"
+        alt="Logo do LAEC"
+      >
+
+      <img
+        src="https://scontent.cdninstagram.com/v/t51.2885-19/449434318_1857404881400647_6563980533496272920_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=2Vkti-tzPBMQ7kNvwHq_Qti&_nc_oc=AdqEuSiO1bOfPkGlfwZBoSdZiEwcNfoLoNSDzAf3VMEixlNCyblbx_9bg_ER2NgvK2d2Jy9s9v2N-_4ATzu2TcCa&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQEP1sSKWDOCpRnv6ckQZcxO0N3iA4jOS_t394etcqZDuA&oe=6A95106E"
+        class="logocepec"
+        alt="Logo do CEPEC"
+      >
+
+    </div>
+
+
+    <!-- Título -->
+    <div class="cabecalho-titulo">
+
+      <h1 class="titulo">
+        Sistema de Monitoramento de Preços e Custos de Alimentos
+      </h1>
+
+      <p class="subtitulo">
+        Informação, monitoramento e inteligência para o setor de alimentos
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- Barra de navegação -->
+  <nav>
+    <ul class="navbar">
+
+      <li class="opcao">
+        <a href="/Cesta_Basica/inicio.html/" class="link">
+          Sobre o projeto
+        </a>
+      </li>
+
+      <li class="opcao">
+        <a href="metodologia.html" class="link">
+          Metodologia
+        </a>
+      </li>
+
+      <li class="opcao">
+        <a href="resultados.html" class="link">
+          Resultados
+        </a>
+      </li>
+
+      <li class="opcao">
+        <a href="previsoes.html" class="link">
+          Previsões
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</header>
+
+<!-- Barra de navegação lateral -->
+
+<nav class="menu-lateral">
+        <a href="#visaoGeral">Visão geral</a>
+        <a href="#equipe">Equipe colaboradora</a>
+        <a href="#parcerias">Apoio e parcerias</a>
+    </nav>
+
+    
+
+
+<!-- Texto do inicio -->
+
+<main>
+<h1 class = "tituloSecao" id = "visaoGeral" style="margin-top: -600px;"> Visão geral </h1>
+
+<p class = "textoInicio"> 
+O Sistema de Monitoramento de Preços e Custos de Alimentos é uma iniciativa conjunta de dois grupos 
+de pesquisa do Departamento de Economia da Universidade Regional do Cariri, o <a href = "nipe-urca.netlify.app"> NIPE</a>
+e o <a href = "
+www.instagram.com/laec_cnpq?igsh=azRpa2lxdWt2MHYx" >LAEC</a>. A iniciativa tem o objetivo principal de preencher uma lacuna existente em relação ao acompanhamento
+dos preços dos itens de consumo mais básicos comercializados nos estabelecimentos comerciais locais é executado pelo Centro de Estudos e Pesquisas Econômicas (CEPEC) da URCA.
+Além disso, a iniciativa busca quantificar e acompanhar os avanços dos preços dos produtos alimentares que são indispensáveis
+na cesta de alimentos das famílias situadas nas principais cidades do interior do estado do Ceará.
+</p>
+
+<p class = "textoParagrafo"> 
+O Sistema de Monitoramento de Preços e Custos de Alimentos nasce como um projeto de extensão submetido à
+Pró-Reitoria de Extensão da URCA no segundo semestre de 2026 com a intenção de mobilizar os discentes do 
+departamento de economia e a comunidade acadêmica em geral para gerar resultados que permitam qua a sociedade
+tenha conhecimento da dinâmica temporal dos custos dos alimentos nas cidades situadas no aglomedado CRAJUBAR.
+Para este propósito, a intérfase inicial do sistema consiste no monitoramento do preço da cesta básica de alimentos
+em três municípios do interioro do estado do Ceará, sendo, Crato, Juazeiro do Norte e Barbalha.
+</p>
+
+<p class = "textoParagrafo"> 
+A ideia central da iniciativa é fazer um monitoramento mensal dos preços da cesta básica de alimentos e fornecer
+uma ''fotografia'' do custo básico de vida em distintas cidades do estado do Ceará. Um dos principais avanços
+deste projeto em relação a outras iniciativas existentes com o mesmo propósito está no fato de que o
+Sistema de Monitoramento de Preços e Custos de Alimentos possui foco no custo de vida de múltiplos perfis 
+socioeconômicos, segmentando os resultados de acordo com a faixa de renda dos consumidores. Além disso, 
+o projeto inova ao usar uma metodologia adequada aos padrões e legislações mais recentes a respeito do tema em questão.
+</p>
+
+
+<h1 style = "margin-left: 475px; font-family: Arial, sans-serif;" id = "equipe"> Equipe colaboradora </h1>
+
+<hr style="margin-left:20%; margin-right:20%;"> </hr>
+
+<div class="coordenadores">
+
+        <div class="coordenador">
+            <h3>Coordenador geral</h3>
+            <img src="https://nipe-urca.netlify.app/images/helsonCircular.png"
+                 alt="Prof. Helson Gomes">
+            <p><a href = "nipe-urca.netlify.app/perfil/helson/" style = "text-decoration:none; color: #333;">Prof. Helson Gomes </a></p>
+        </div>
+
+        <div class="coordenador">
+            <h3>Coordenador adjunto</h3>
+            <img src="https://nipe-urca.netlify.app/images/aydanoCircular.png"
+                 alt="Prof. Aydano Ribeiro">
+            <p><a href = "nipe-urca.netlify.app/perfil/aydano/" style = "text-decoration:none; color: #333;">Prof. Aydano Ribeiro</a></p>
+        </div>
+
+    </div>
+    
+    <hr style="margin-left:20%; margin-right:20%;"> </hr>
+    
+    <div class="coordenadores">
+
+        <div class="coordenador">
+        <h3>Comissão de divulgação</h3>
+            <img src="https://nipe-urca.netlify.app/images/diogoCircular.png"
+                 alt= "Prof. Diogo Sobreira" >
+            <p><a href = "nipe-urca.netlify.app/perfil/diogo/" style = "text-decoration:none; color: #333;">Prof. Diogo Sobreira</a></p>
+        </div>
+
+        <div class="coordenador">
+            <h3>Comissão financeira</h3>
+            <img src="https://nipe-urca.netlify.app/images/valdeirCircular.png"
+                 alt="Prof. Valdeir Monteiro">
+            <p><a href = "nipe-urca.netlify.app/perfil/valdeir/" style = "text-decoration:none; color: #333;">Prof. Valdeir Monteiro</a></p>
+        </div>
+        
+        <div class="coordenador">
+            <h3>Comissão de pessoal</h3>
+            <img src="https://www.urca.br/wp-content/uploads/2024/12/7-QUOTA-1.jpg"
+                 alt="Prof. Luiz Abel">
+            <p>Prof. Luís Abel</p>
+        </div>
+
+    </div>
+    
+    
+    <hr style="margin-left:20%; margin-right:20%;"> </hr>
+    
+    <h1 id = "parcerias" style = "margin-left: 475px; font-family: Arial, sans-serif; margin-top:35px"> Apoio e parcerias </h1>
+
+  <p class = "textoParagrafo"> 
+  Atualmente o Sistema de Monitoramento de Preços e Custos de Alimentos conta com o apoio da Universidade
+  Regional do Cariri (URCA), a qual fornece a estrutura necessára para a execução da iniciativa e a formalização
+  da mesma como projeto de extensão no âmbito da Pró-Reitoria de Extensão.
+  </p>
+  
+  
+  </main>
+  
+  
+  <!-- Início do Rodapé -->
+  <footer class="rodape-principal">
+    <div class="rodape-container">
+      
+      <!-- Coluna 1: Sobre o Projeto / Empresa -->
+      <div class="rodape-coluna">
+        <h3>Sobre o Sistema</h3>
+        <p>Plataforma dedicada ao monitoramento transparente de preços, custos e inteligência de mercado para o setor de alimentos, auxiliando na tomada de decisões.</p>
+        
+        <!-- Mídias Sociais -->
+        <div class="redes-sociais">
+          <a href="https://www.instagram.com/nipe_urca/?igsh=MWFmaGticnJ3ejVnZg%3D%3D" title="Instagram" target="_blank"> <i class="fa fa-instagram"></i> </a>
+        </div>
+      </div>
+
+      <!-- Coluna 2: Links Úteis -->
+      <div class="rodape-coluna">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="https://www.ibge.gov.br/estatisticas/sociais/saude/24786-pof-2017-2018.html" target="_blank">Pesquisa de Orçamentos Familiares</a></li>
+          <li><a href="https://www.in.gov.br/web/dou/-/decreto-n-11.936-de-5-de-marco-de-2024-546760941" target="_blank">Decreto nº 11.936, de 5 de março de 2024</a></li>
+          <li><a href="https://www.in.gov.br/web/dou/-/portaria-mds-n-966-de-6-de-marco-de-2024-546839622" target="_blank">Portaria MDS nº 966, de 6 de março 2024</a></li>
+          <li><a href="https://www.gov.br/agricultura/pt-br/assuntos/inspecao/produtos-vegetal/legislacao-programas-nacionais-e-seguranca-dos-alimentos-1/legislacao/legislacao-vinhos-e-bebidas/guia-alimentar-para-a-populacao-brasileira_2014.pdf/view" target="_blank">Guia Alimentar para a População Brasileira</a></li>
+          <li><a href="nipe-urca.netlify.app" target = "_blank">Núcleo Integrado de Pesquisa Econômica</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Contato e Endereço -->
+      <div class="rodape-coluna">
+        <h3>Contato E Endereço</h3>
+        <p><strong>Endereço:</strong> Rua Cel. Antonio Luiz, 1161<br>Pimenta, Crato - CE, 63105-000</p>
+        <p><strong>Telefone:</strong> (88) 21430518<br><strong>E-mail:</strong> nipe.urca@gmail.com</p>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="rodape-inferior">
+      <p>&copy; 2026 Sistema de Monitoramento de Preços e Custos de Alimentos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+</body>
+
