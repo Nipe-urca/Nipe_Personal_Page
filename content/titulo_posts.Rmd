@@ -3,6 +3,10 @@ title: "Nossas postagens"
 output: html_document
 buildDrafts: true
 ---
+
+# [NIPE tem cinco trabalhos aprovados para apresentação no XXIV ENABER](/2026/09/08/nipe-tem-cinco-trabalhos-aprovados-para-apresentação-no-xxiv-enaber/)
+
+
 # [Preço das hortaliças arrefece e IPPAC cai em agosto](/2026/08/10/preço-das-hortaliças-arrefece-e-ippac-cai-em-agosto/)
 
 # [NIPE tem três trabalhos aprovados para apresentação no XXXI Encontro Regional de Economia do Nordeste](/2026/07/21/nipe-tem-três-trabalhos-aprovados-para-apresentação-no-xxxi-encontro-regional-de-economia-do-nordeste/)

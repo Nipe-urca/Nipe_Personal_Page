@@ -1,0 +1,27 @@
+---
+title: "NIPE tem cinco trabalhos aprovados para apresentação no XXIV ENABER"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-09-08"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O NIPE marcará presença no XXIV ENABER, que ocorrerá na cidade de Porto Alegre - RS entre os dias 21 e 23 de outubro de 2026. Na oportunidade, os integrantes do NIPE participarão como apresentadores de artigos completos aprovados para apresentação em múltiplas seções do evento. Ao todo foram cinco trabalhos aprovados contemplando três integrantes do grupo. Abaixo estão listados os trabalhos aprovados e a participação de cada pesquisador em sua elaboração. A coordenação do NIPE parabeniza os pesquisadores pela aprovação dos trabalhos e deseja a todos um excelente encontro.
+
+* **Exportações e Emprego Formal: Uma Análise Setorial do Mercado de Trabalho do Nordeste em 2024**, elaborado sob orientação dos professores Soraia Madeira e Diogo Sobreira.
+
+* **Desigualdade de Oportunidade no Acesso a Educação Básica no Ceará no Período 1980–2010:Uma Abordagem de Áreas Mínimas Comparáveis**, elaborado sob orientação dos professores Soraia Madeira, Diogo Sobreira e Áydano Ribeiro.
+
+* **Persistência da Pobreza e Políticas Públicas no Brasil e no Nordeste: Uma Análise em Painel de 2012 a 2024**, desenvolvido com a coautoria do Prof. Diogo Sobreira.
+
+* **Technical Assistance And Family Farming In Brazil**, desenvolvido com a coautoria do Prof. Diogo Sobreira.
+
+* **Choques Climáticos e Mortalidade Infantil no Semiárido Brasileiro: Evidências de Um Painel de Municípios (2004–2023)**, desenvolvido com a coautoria da Profª. Soraia Madeira.
+
+
+Confira a lista completa de trabalhos aprovados para apresentação clicando <a href = "https://brsa.org.br/wp-content/uploads/2026/08/Artigos-Selecionados-XXIV-ENABER-2026.pdf"> aqui </a>.
+
+<hr>
