@@ -13,13 +13,17 @@ O NIPE marcará presença no XXIV ENABER, que ocorrerá na cidade de Porto Alegr
 
 * **Exportações e Emprego Formal: Uma Análise Setorial do Mercado de Trabalho do Nordeste em 2024**, elaborado sob orientação dos professores Soraia Madeira e Diogo Sobreira.
 
-* **Desigualdade de Oportunidade no Acesso a Educação Básica no Ceará no Período 1980–2010:Uma Abordagem de Áreas Mínimas Comparáveis**, elaborado sob orientação dos professores Soraia Madeira, Diogo Sobreira e Áydano Ribeiro.
+* **Desigualdade de Oportunidade no Acesso a Educação Básica no Ceará no Período 1980–2010:Uma Abordagem de Áreas Mínimas Comparáveis**, elaborado sob autoria da Profª. Soraia Madeira e com coautoria dos professores Diogo Sobreira e Áydano Ribeiro.
 
 * **Persistência da Pobreza e Políticas Públicas no Brasil e no Nordeste: Uma Análise em Painel de 2012 a 2024**, desenvolvido com a coautoria do Prof. Diogo Sobreira.
 
 * **Technical Assistance And Family Farming In Brazil**, desenvolvido com a coautoria do Prof. Diogo Sobreira.
 
 * **Choques Climáticos e Mortalidade Infantil no Semiárido Brasileiro: Evidências de Um Painel de Municípios (2004–2023)**, desenvolvido com a coautoria da Profª. Soraia Madeira.
+
+<p style= "font-size: 10px">
+Nota: Os demais autores dos trabalhos mencionados podem ser consultados na lista completa de trabalhos aprovados.
+</p>
 
 
 Confira a lista completa de trabalhos aprovados para apresentação clicando <a href = "https://brsa.org.br/wp-content/uploads/2026/08/Artigos-Selecionados-XXIV-ENABER-2026.pdf"> aqui </a>.
