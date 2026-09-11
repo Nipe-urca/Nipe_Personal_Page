@@ -122,7 +122,7 @@ Concluiu a Graduação em Ciências Econômicas pela Universidade Regional do Ca
       {"ano": "2023", "publicacoes": 1, "citacoes": 8},
       {"ano": "2024", "publicacoes": 0, "citacoes": 4},
       {"ano": "2025", "publicacoes": 0, "citacoes": 3},
-      {"ano": "2026", "publicacoes": 0, "citacoes": 4}
+      {"ano": "2026", "publicacoes": 0, "citacoes": 6}
     ];
 
     // 1. Processa e agrupa os dados por ano

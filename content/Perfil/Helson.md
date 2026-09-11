@@ -127,7 +127,7 @@ ARAUJO, C.F ; [SOUZA, H. G](https://orcid.org/0000-0001-7873-3798). A Pobreza no
       {"ano": "2023", "publicacoes": 0, "citacoes": 17},
       {"ano": "2024", "publicacoes": 0, "citacoes": 18},
       {"ano": "2025", "publicacoes": 3, "citacoes": 26},
-      {"ano": "2026", "publicacoes": 1, "citacoes": 7}
+      {"ano": "2026", "publicacoes": 1, "citacoes": 10}
     ];
 
     // 1. Processa e agrupa os dados por ano

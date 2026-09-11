@@ -4,6 +4,10 @@ output: html_document
 buildDrafts: true
 ---
 
+
+# [Preços de frutas e hortaliças caem e IPPAC arrefece em setembro](/2026/09/10/preços-de-frutas-e-hortaliças-caem-e-ippac-arrefece-em-setembro/)
+
+
 # [NIPE tem cinco trabalhos aprovados para apresentação no XXIV ENABER](/2026/09/08/nipe-tem-cinco-trabalhos-aprovados-para-apresentação-no-xxiv-enaber/)
 
 
