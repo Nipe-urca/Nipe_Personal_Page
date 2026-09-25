@@ -1,0 +1,16 @@
+---
+title: "Discente do NIPE apresenta resultado de estudo em evento local"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-09-25"
+output: html_document
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+
+A coordenação e os demais integrantes do NIPE parabenizam a discente Daiana de Souza Bezerra pela apresentação do seu manuscrito intitulado "Análise do Bolsa Família e a Informalidade no Mercado de Trabalho Cearense" na 13ª semana de economia da URCA - Campus Iguatu. O manuscrito foi elaborado sob orientação da Prof.ª Soraia Madeira, a qual também recebe os devidos reconhecimentos. A participação da discente como apresentadora no referido evento é resultado do esforço dos integrantes do NIPE desenvolvidos na tentativa de inserir os discentes do grupo de pesquisa no âmbito da pesquisa científica. 
+

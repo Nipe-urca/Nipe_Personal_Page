@@ -4,6 +4,9 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Discente do NIPE apresenta resultado de estudo em evento local](/2026/09/25/discente-do-nipe-apresenta-resultado-de-estudo-em-evento-local/)
+
+# [Pesquisadores do NIPE elaboram estudo para o boletim de gestão pública do IPECE"](/2026/09/25/pesquisadores-do-nipe-elaboram-estudo-para-o-boletim-de-gestão-pública-do-ipece/)
 
 # [Preços de frutas e hortaliças caem e IPPAC arrefece em setembro](/2026/09/10/preços-de-frutas-e-hortaliças-caem-e-ippac-arrefece-em-setembro/)
 

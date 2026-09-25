@@ -364,10 +364,21 @@
             flex-wrap: wrap;
             text-align: center;
         }
+        
+        .equipe {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: -10px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
 
         .coordenador {
             width: 220px;
         }
+        
+        
 
         .coordenador h3 {
             margin-bottom: 15px;
@@ -376,8 +387,8 @@
         }
 
         .coordenador img {
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             border-radius: 50%;
             display: block;
@@ -440,5 +451,10 @@ table {
   th {
     font-weight: bold;
   }
+  
+  
+  
+  
+  
   
   

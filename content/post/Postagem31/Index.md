@@ -1,0 +1,12 @@
+---
+title: "Pesquisadores do NIPE elaboram estudo para o boletim de gestão pública do IPECE"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-09-25"
+output: html_document
+draft: false
+---
+
+
+<hr>
+
+O Instituto de Pesquisa e Estratégia Econômica do Ceará (IPECE) lançou em setembro de 2026 o Boletim de Gestão Pública nº 42/2026 composto por dois estudos, sendo um deles elaborado com autoria e coautoria de pesquisadores do NIPE. O referido estudo trata da mensuração da desigualdade de oportunidades no acesso à educação básica no estado do Ceará. Usando técnicas de cálculo da desigualdade consolidadas na literatura, o estudo revelou que o acesso à educação básica tem ficado cada vez mais igualitário nos municípios do estado. Dentre os integrantes do NIPE, compuseram a autoria do estudo a Prof.ª Soraia Madeira, o Prof. Diogo Sobreira e o Prof. Áydano Leite. Clique <a href= "https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2026/09/Boletim_Gestao_Publica_N42_2026.pdf"> aqui </a> para acessar o trabalho na íntegra.
