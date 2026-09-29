@@ -148,12 +148,12 @@ Tipo de publicação:
 <p><label for="trabalhos">Tipo de publicação:</label>
 <select name="trabalhos" id="trabalhos" onchange="handleSelection()"></p>
   <option value="selecione">Selecione</option>
-  <option value="periodicos">Publicações em periódicos</option>
+  <option value="periodicos" selected>Publicações em periódicos</option>
   <option value="anais">Anais de eventos</option>
   <option value="aceitos">Aceitos para publicação</option>
   <option value="construindo">Em construção</option>
 </select>
-<p id="result"></p>
+<!-- Mantido apenas um elemento com o ID 'result' (alterado para div para suportar blocos grandes de HTML) -->
 <div id="result"></div>
 <script>
       function handleSelection() {
@@ -180,7 +180,6 @@ Tipo de publicação:
             </p>
             <p> <a href="https://www.bnb.gov.br/revista/ren/article/view/1617/2227"> Mais acesso ao crédito rural importa? Efeitos sobre a produção agropecuária cearense</a>.
             Publicado na <a href = https://www.bnb.gov.br/revista/ren/issue/view/265> Revista Econômica do Nordeste</a>. Autoria do Prof. Diogo Sobreira e coautoria dos professores do PPGER/UFC Jair Araujo, Francisco Tabosa, Edward Costa e Ahmad Khan.
-            </p>
             </p>
             <p> <a href="https://muse.jhu.edu/pub/51/article/965532"> Climatic Factors in Economies of Scale: An Insight into Agricultural Productivity in the State of Ceará-Brazil</a>.
             Publicado no <a href = https://muse.jhu.edu/journal/258> The Journal of Developing Areas</a>. Autoria do Prof. Helson Gomes de Souza e coautoria do Prof. Francisco Taboea (PPGER/UFC).
@@ -218,30 +217,36 @@ Tipo de publicação:
               <p> (x) <a href = "https://www.even3.com.br/anais/iv-econape/994476-analise-da-potencia-da-politica-monetaria-no-brasil-pos-pandemia-da-covid-19/" target = "_blank" > Análise da Potência da Política Monetária no Brasil Pós-Pandemia da COVID-19. </a> Em Anais do IV ECONAPE. Coautoria do Prof. Áydano Ribeiro. </p>
               <hr>
               `;
-            break;
+              break;
             case 'aceitos':
               resultText = `
               <hr>
-              <p>(ii) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2025. Coautoria do Prof. Áydano Ribeiro Leite.</p>
+              <p>(i) Evidências da Pandemia da Covid-19 no Retorno Educacional no Estado do Ceará. Revista Econômica do Nordeste, 2026. Coautoria do Prof. Áydano Ribeiro Leite.</p>
+              
+              <p>(ii) Modelos Preditivos Para Séries Temporais: O Caso das Exportações de Lagosta do Estado do Ceará 2000-2023. Revista Econômica do Nordeste, 2026. Coautoria do Prof. Valdeir Monteiro.</p>
+              
+              <p>(iii) Are Women Electing Women? An Analysis of the Brazilian Elections. Journal of Social and Economic Development, 2026. Autoria do Prof. Helson Gomes.</p>
               <hr>
               `;
-            break;
+              break;
             case 'construindo':
               resultText = `
               <hr>
               <p>Nenhum item disponível!</p>
               <hr>
               `;
-            break;
+              break;
             default:
               resultText = "<span style='color:red;'>Seleção inválida.</span>";
         }
         
         document.getElementById("result").innerHTML = resultText;
       }
+
+      // Executa a função imediatamente ao carregar a página para preencher o conteúdo padrão
+      window.onload = handleSelection;
 </script>
 </body>
-
   
 
   

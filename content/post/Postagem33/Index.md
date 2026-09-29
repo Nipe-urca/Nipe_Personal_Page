@@ -1,0 +1,19 @@
+---
+title: "Pesquisadores do NIPE aprovam trabalhos para apresentação no 54º Encontro Nacional de Economia"
+#author: "Prof. Dr. Helson Gomes"
+date: "2026-09-29"
+output: html_document
+draft: false
+---
+
+
+
+<hr>
+
+A Associação Nacional dos Centros de Pós-Graduação em Economia (ANPEC) lançou nesta segunda-feira (28/09) a lista de trabalhos aprovados para apresentação no 54º Encontro Nacional de Economia. O NIPE obteve êxito na aprovação de dois trabalhos onde os membros do grupo integram a lista de coautores. Abaixo segue os detalhes dos manuscritos aprovados:
+
+(i) <a href = "https://www.anpec.org.br/encontro/2026/submissao/files_I/i8-8278877aa2147d11da75aa8ab3948b00.pdf" target = "_blank"> Private Health Insurance And Healthcare Utilization: New Causal Evidence From Brazil </a> aprovado para apresentação na área de Microeconomia, Métodos Quantitativos e Finanças, elaborado sobre coautoria do Prof. Dr. Diogo Sobreira.
+
+(ii) <a href = "https://www.anpec.org.br/encontro/2026/submissao/files_I/i5-097f52a4d84d75599e193902af5484a3.pdf" target = "_blank"> Female Political Leadership And The Quality Of Local Bureaucracy </a> aprovado para apresentação na área de Economia do setor público, elaborado sobre coautoria do Prof. Dr. Helson Gomes.
+
+A coordenação do NIPE parabeniza os pesquisadores pela aprovação dos trabalhos.
