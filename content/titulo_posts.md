@@ -4,6 +4,7 @@ output: html_document
 buildDrafts: true
 ---
 
+# [Preços de frutas e hortaliças retomam a tendência crescente](/2026/10/13/preços-de-frutas-e-hortaliças-retomam-a-tendência-crescente/)
 
 # [Pesquisadores do NIPE aprovam trabalhos para apresentação no 54º Encontro Nacional de Economia](/2026/09/29/pesquisadores-do-nipe-aprovam-trabalhos-para-apresentação-no-54º-encontro-nacional-de-economia/)
 
